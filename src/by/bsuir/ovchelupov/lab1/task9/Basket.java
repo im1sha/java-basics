@@ -15,6 +15,7 @@ public final class Basket {
 
     /**
      * Adds ball to basket
+     *
      * @param ball Ball to add
      */
     public void addBall(Ball ball) {
@@ -27,6 +28,7 @@ public final class Basket {
 
     /**
      * Returns last ball of basket and removes it
+     *
      * @return Last ball of basket and removes it, or null if basket is empty
      */
     public Ball popBall() {
@@ -42,6 +44,7 @@ public final class Basket {
 
     /**
      * Checks if basket is empty
+     *
      * @return True if basket is empty, otherwise false
      */
     public boolean isEmpty() {
@@ -50,6 +53,7 @@ public final class Basket {
 
     /**
      * Gets amount of balls in basket
+     *
      * @return Amount of balls in basket
      */
     public int getBallsCount() {
@@ -58,6 +62,7 @@ public final class Basket {
 
     /**
      * Gets all balls of basket
+     *
      * @return All balls of basket
      */
     public ArrayList<Ball> getBalls() {
@@ -66,6 +71,7 @@ public final class Basket {
 
     /**
      * Compares this object to argument
+     *
      * @param o Object to compare
      * @return True if objects are same, otherwise false
      */
@@ -83,6 +89,7 @@ public final class Basket {
 
     /**
      * Generates hashcode of this object
+     *
      * @return Hash code of this object
      */
     @Override
@@ -92,6 +99,7 @@ public final class Basket {
 
     /**
      * Generates string representation of this object
+     *
      * @return String representation of this object
      */
     @Override

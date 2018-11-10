@@ -7,10 +7,11 @@ public class Runner {
     /**
      * Private constructor to prevent object creation
      */
-    private Runner() {}
+    private Runner() {
+    }
 
-    public static void main(String[] args){
-        int[] arr = { 2, 3, 1, 4, 5, 7, 0, 3, 9, 11, };
+    public static void main(String[] args) {
+        int[] arr = {2, 3, 1, 4, 5, 7, 0, 3, 9, 11,};
         var result = FindNumberOfItemsToRemove(arr);
         System.out.print("Total items to remove: " + result);
     }

@@ -10,13 +10,14 @@ public class Runner {
     /**
      * Private constructor to prevent object creation
      */
-    private Runner() {}
+    private Runner() {
+    }
 
-    public static void main(String[] args){
-        int[] arr = { 2, 3, 4, 5, 7, 9, 11, };
+    public static void main(String[] args) {
+        int[] arr = {2, 3, 4, 5, 7, 9, 11,};
         var result = PrimePositions(arr);
         System.out.print("positions of primes: ");
-        for (var i: result) {
+        for (var i : result) {
             System.out.print(i + " ");
         }
     }

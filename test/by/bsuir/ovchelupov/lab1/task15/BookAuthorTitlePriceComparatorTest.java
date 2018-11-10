@@ -1,11 +1,11 @@
 package by.bsuir.ovchelupov.lab1.task15;
 
 
-
 import by.bsuir.ovchelupov.lab1.task12.Book;
-        import org.junit.jupiter.api.Assertions;
-        import org.junit.jupiter.api.Test;
-        import java.util.ArrayList;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+import java.util.ArrayList;
 
 /**
  * Tests for BookAuthorTitlePriceComparator class
@@ -18,9 +18,10 @@ class BookAuthorTitlePriceComparatorTest {
 
     /**
      * Creates test book
-     * @param title Title of book
+     *
+     * @param title  Title of book
      * @param author Author of book
-     * @param price Price of book
+     * @param price  Price of book
      * @return New test book
      */
     private Book createTestBook(String title, String author, int price) {

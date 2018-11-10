@@ -6,6 +6,7 @@ import java.util.ListIterator;
 public class SquareMatrix {
     /**
      * Converts double array to ArrayList
+     *
      * @param array Array to convert
      * @return Converted ArrayList
      */
@@ -25,6 +26,7 @@ public class SquareMatrix {
 
     /**
      * Generates square matrix by array
+     *
      * @param array Array used to generate matrix
      * @return Generated matrix
      */
@@ -62,5 +64,6 @@ public class SquareMatrix {
     /**
      * Private constructor to prevent object creation
      */
-    private SquareMatrix() { }
+    private SquareMatrix() {
+    }
 }

@@ -1,11 +1,11 @@
 package by.bsuir.ovchelupov.lab1.task15;
 
 
-
 import by.bsuir.ovchelupov.lab1.task12.Book;
-        import org.junit.jupiter.api.Assertions;
-        import org.junit.jupiter.api.Test;
-        import java.util.ArrayList;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+import java.util.ArrayList;
 
 /**
  * Tests for BookPriceComparator class
@@ -28,6 +28,7 @@ class BookPriceComparatorTest {
 
     /**
      * Creates test book
+     *
      * @param price Price of test book
      * @return New test book
      */

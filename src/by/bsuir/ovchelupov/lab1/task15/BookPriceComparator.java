@@ -1,6 +1,7 @@
 package by.bsuir.ovchelupov.lab1.task15;
 
 import by.bsuir.ovchelupov.lab1.task12.Book;
+
 import java.util.Comparator;
 
 /**
@@ -9,10 +10,11 @@ import java.util.Comparator;
 public class BookPriceComparator implements Comparator<Book> {
     /**
      * Compares two books
+     *
      * @param book1 First book
      * @param book2 Second book
      * @return Negative integer, zero, or a positive integer as the first book price is less than, equal to, or greater
-     *         than the second
+     * than the second
      */
     @Override
     public int compare(Book book1, Book book2) {
@@ -25,6 +27,7 @@ public class BookPriceComparator implements Comparator<Book> {
 
     /**
      * Generates string representation of comparator
+     *
      * @return String representation of comparator
      */
     @Override
@@ -34,6 +37,7 @@ public class BookPriceComparator implements Comparator<Book> {
 
     /**
      * Checks if comparator equals to specified object
+     *
      * @param obj Object to check
      * @return True if comparator equals to specified object, otherwise false
      */
@@ -45,5 +49,6 @@ public class BookPriceComparator implements Comparator<Book> {
     /**
      * Constructor of comparator
      */
-    public BookPriceComparator() {}
+    public BookPriceComparator() {
+    }
 }

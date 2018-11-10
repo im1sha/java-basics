@@ -10,10 +10,11 @@ import java.util.Comparator;
 public class BookAuthorComparator implements Comparator<Book> {
     /**
      * Compares two books
+     *
      * @param book1 First book
      * @param book2 Second book
      * @return Negative integer, zero, or a positive integer as the first book author is less than, equal to, or greater
-     *         than the second
+     * than the second
      */
     @Override
     public int compare(Book book1, Book book2) {
@@ -26,6 +27,7 @@ public class BookAuthorComparator implements Comparator<Book> {
 
     /**
      * Generates string representation of comparator
+     *
      * @return String representation of comparator
      */
     @Override
@@ -35,6 +37,7 @@ public class BookAuthorComparator implements Comparator<Book> {
 
     /**
      * Checks if comparator equals to specified object
+     *
      * @param obj Object to check
      * @return True if comparator equals to specified object, otherwise false
      */
@@ -46,6 +49,7 @@ public class BookAuthorComparator implements Comparator<Book> {
     /**
      * Constructor of comparator
      */
-    public BookAuthorComparator() {}
+    public BookAuthorComparator() {
+    }
 }
 

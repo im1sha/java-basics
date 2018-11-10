@@ -4,10 +4,12 @@ import java.util.LinkedList;
 
 public class TableRepresentation {
 
-    private TableRepresentation() { }
+    private TableRepresentation() {
+    }
 
     /**
      * Creates table using two dimensional array
+     *
      * @param values Two dimensional array
      * @return String representing table
      */
@@ -46,11 +48,11 @@ public class TableRepresentation {
         LinkedList<String> result = new LinkedList<String>();
         StringBuilder line = new StringBuilder();
         line.append(" + ");
-        for (int j = 0; j < leftColumnLength ; ++j) {
+        for (int j = 0; j < leftColumnLength; ++j) {
             line.append('-');
         }
         line.append(" + ");
-        for (int j = 0; j < rightColumnLength ; ++j) {
+        for (int j = 0; j < rightColumnLength; ++j) {
             line.append('-');
         }
         line.append(" + ");
@@ -71,7 +73,7 @@ public class TableRepresentation {
             }
             rightCellSb.append(right);
 
-            String stringToAppend = " | " + leftCellSb + " | " + rightCellSb + " | " ;
+            String stringToAppend = " | " + leftCellSb + " | " + rightCellSb + " | ";
             result.add(stringToAppend);
         }
         result.add(line.toString());

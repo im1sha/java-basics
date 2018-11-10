@@ -2,6 +2,7 @@ package by.bsuir.ovchelupov.lab1.task9;
 
 import by.bsuir.ovchelupov.lab1.task9.Ball;
 import by.bsuir.ovchelupov.lab1.task9.Basket;
+
 import java.util.ArrayList;
 
 /**
@@ -10,6 +11,7 @@ import java.util.ArrayList;
 public final class BasketballAnalyzer {
     /**
      * Gets weight of all balls in basket
+     *
      * @param basket Basket to get balls from
      * @return Total weight of all balls
      */
@@ -28,8 +30,9 @@ public final class BasketballAnalyzer {
 
     /**
      * Gets list of ball by color
+     *
      * @param basket Basket to get balls from
-     * @param color Color of balls
+     * @param color  Color of balls
      * @return List of balls by color
      */
     public static ArrayList<Ball> getBallsByColor(Basket basket, String color) {
@@ -53,5 +56,6 @@ public final class BasketballAnalyzer {
     /**
      * Private constructor to prevent object creation
      */
-    private BasketballAnalyzer() {}
+    private BasketballAnalyzer() {
+    }
 }

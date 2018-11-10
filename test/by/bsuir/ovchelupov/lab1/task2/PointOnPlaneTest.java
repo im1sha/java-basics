@@ -12,8 +12,8 @@ class PointOnPlaneTest {
      */
     @Test
     void isPointInFigure() {
-        Assertions.assertTrue(PointOnPlane.inRegion(-4.0,5.0));
-        Assertions.assertFalse(PointOnPlane.inRegion(-6,-4));
-        Assertions.assertTrue(PointOnPlane.inRegion(4.0,0.00));
+        Assertions.assertTrue(PointOnPlane.inRegion(-4.0, 5.0));
+        Assertions.assertFalse(PointOnPlane.inRegion(-6, -4));
+        Assertions.assertTrue(PointOnPlane.inRegion(4.0, 0.00));
     }
 }

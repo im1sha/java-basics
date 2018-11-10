@@ -12,22 +12,22 @@ class TableOfTangentsTest {
         double left = 5;
         double right = 6;
         double step = 0.5;
-        Assertions.assertArrayEquals(new double[][] {
-                        new double[] { left, Math.tan(left) },
-                        new double[] { left + 0.5, Math.tan(left + 0.5) },
-                        new double[] { right, Math.tan(right) }
-                        },
-                TableOfTangents.getTangentList(left, right,step));
+        Assertions.assertArrayEquals(new double[][]{
+                        new double[]{left, Math.tan(left)},
+                        new double[]{left + 0.5, Math.tan(left + 0.5)},
+                        new double[]{right, Math.tan(right)}
+                },
+                TableOfTangents.getTangentList(left, right, step));
         left = 5;
         right = 6.1;
         step = 0.5;
-        Assertions.assertArrayEquals(new double[][] {
-                        new double[] { left, Math.tan(left) },
-                        new double[] { left + 0.5, Math.tan(left + 0.5) },
-                        new double[] { left + 1.0, Math.tan(left + 1.0) },
-                        new double[] { right, Math.tan(right) },
+        Assertions.assertArrayEquals(new double[][]{
+                        new double[]{left, Math.tan(left)},
+                        new double[]{left + 0.5, Math.tan(left + 0.5)},
+                        new double[]{left + 1.0, Math.tan(left + 1.0)},
+                        new double[]{right, Math.tan(right)},
                 },
-                TableOfTangents.getTangentList(left, right,step));
+                TableOfTangents.getTangentList(left, right, step));
 
         // check wrong interval
         final double leftValue = 5;

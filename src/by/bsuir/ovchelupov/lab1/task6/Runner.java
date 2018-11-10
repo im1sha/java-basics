@@ -4,10 +4,12 @@ public class Runner {
     /**
      * Private constructor to prevent object creation
      */
-    private Runner() {}
+    private Runner() {
+    }
 
     /**
      * Entry point of demonstration program
+     *
      * @param args Command line arguments, not in use
      */
     public static void main(String[] args) {

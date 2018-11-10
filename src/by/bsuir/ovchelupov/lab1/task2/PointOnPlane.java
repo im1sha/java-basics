@@ -5,10 +5,12 @@ package by.bsuir.ovchelupov.lab1.task2;
  */
 public class PointOnPlane {
 
-    private PointOnPlane() { }
+    private PointOnPlane() {
+    }
 
     /**
      * Detects whether point belongs to filled scope
+     *
      * @param x X value of double type
      * @param y Y value of double type
      * @return Boolean value

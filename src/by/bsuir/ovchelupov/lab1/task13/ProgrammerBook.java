@@ -18,6 +18,7 @@ public class ProgrammerBook extends by.bsuir.ovchelupov.lab1.task12.Book {
 
     /**
      * Checks if programmer books are same
+     *
      * @param object Object to compare
      * @return True if objects are same, false otherwise
      */
@@ -39,6 +40,7 @@ public class ProgrammerBook extends by.bsuir.ovchelupov.lab1.task12.Book {
 
     /**
      * Generates hash code of programmer book
+     *
      * @return Hash code of programmer book
      */
     @Override
@@ -48,6 +50,7 @@ public class ProgrammerBook extends by.bsuir.ovchelupov.lab1.task12.Book {
 
     /**
      * Generates string representation of programmer book
+     *
      * @return String representation of programmer book
      */
     @Override
@@ -57,11 +60,12 @@ public class ProgrammerBook extends by.bsuir.ovchelupov.lab1.task12.Book {
 
     /**
      * Constructor of programmer book
-     * @param title  Title of book
-     * @param author Author of book
-     * @param price  Price of book
+     *
+     * @param title    Title of book
+     * @param author   Author of book
+     * @param price    Price of book
      * @param language Language of book
-     * @param level Level of book
+     * @param level    Level of book
      */
     public ProgrammerBook(String title, String author, int price, String isbn, String language, int level) {
         super(title, author, price, isbn);

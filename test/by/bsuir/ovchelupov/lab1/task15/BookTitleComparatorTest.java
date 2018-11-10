@@ -29,6 +29,7 @@ class BookTitleComparatorTest {
 
     /**
      * Creates test book
+     *
      * @param title Title of test book
      * @return New test book
      */

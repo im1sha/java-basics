@@ -40,6 +40,7 @@ public class Book implements Comparable<Book>, Cloneable {
 
     /**
      * Checks if books equals
+     *
      * @param object Object to compare
      * @return True if objects are same, otherwise false
      */
@@ -61,6 +62,7 @@ public class Book implements Comparable<Book>, Cloneable {
 
     /**
      * Generates hash code of this book
+     *
      * @return Hash code of this book
      */
     @Override
@@ -70,6 +72,7 @@ public class Book implements Comparable<Book>, Cloneable {
 
     /**
      * Generates string representation of this book
+     *
      * @return String representation of this book
      */
     @Override
@@ -80,6 +83,7 @@ public class Book implements Comparable<Book>, Cloneable {
 
     /**
      * Creates and returns a copy of this object
+     *
      * @return Copy of this object
      */
     @Override
@@ -95,6 +99,7 @@ public class Book implements Comparable<Book>, Cloneable {
 
     /**
      * Sets edition of all books
+     *
      * @param edition Edition to set
      */
     public static void setEdition(int edition) {
@@ -107,6 +112,7 @@ public class Book implements Comparable<Book>, Cloneable {
 
     /**
      * Gets book title
+     *
      * @return Book title
      */
     public String getTitle() {
@@ -115,6 +121,7 @@ public class Book implements Comparable<Book>, Cloneable {
 
     /**
      * Gets book author
+     *
      * @return Book author
      */
     public String getAuthor() {
@@ -123,6 +130,7 @@ public class Book implements Comparable<Book>, Cloneable {
 
     /**
      * Gets book price
+     *
      * @return Book price
      */
     public int getPrice() {
@@ -131,6 +139,7 @@ public class Book implements Comparable<Book>, Cloneable {
 
     /**
      * Gets book edition
+     *
      * @return Book edition
      */
     public static int getEdition() {
@@ -139,6 +148,7 @@ public class Book implements Comparable<Book>, Cloneable {
 
     /**
      * Gets book ISBN
+     *
      * @return Book ISBN
      */
     public String getIsbn() {
@@ -147,6 +157,7 @@ public class Book implements Comparable<Book>, Cloneable {
 
     /**
      * Checks if ISBN is correct
+     *
      * @param isbn ISBN to check
      * @return True if ISBN is correct, otherwise false
      */
@@ -178,6 +189,7 @@ public class Book implements Comparable<Book>, Cloneable {
 
     /**
      * Splits ISBN string to int array
+     *
      * @param isbn ISBN string
      * @return Splitted ISBN
      */
@@ -201,6 +213,7 @@ public class Book implements Comparable<Book>, Cloneable {
 
     /**
      * Compares two books by ISBN
+     *
      * @param book Book to compare to this book
      * @return A negative integer, zero, or a positive integer as this book is less than, equal to, or greater than the specified book
      */
@@ -222,9 +235,10 @@ public class Book implements Comparable<Book>, Cloneable {
 
     /**
      * Constructor of book
-     * @param title Title of book
+     *
+     * @param title  Title of book
      * @param author Author of book
-     * @param price Price of book
+     * @param price  Price of book
      */
     public Book(String title, String author, int price, String isbn) {
         if (title == null) {

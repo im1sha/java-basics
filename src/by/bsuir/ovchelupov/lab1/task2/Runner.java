@@ -9,7 +9,8 @@ public class Runner {
     /**
      * Private constructor to prevent object creation
      */
-    private Runner() {}
+    private Runner() {
+    }
 
     public static void main(String[] args) {
         var scanner = new by.bsuir.ovchelupov.lab1.Scanner();

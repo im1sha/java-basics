@@ -8,10 +8,12 @@ public class Runner {
     /**
      * Constructor to avoid object creation
      */
-    private Runner() {}
+    private Runner() {
+    }
 
     /**
      * Entry point for program. Inputs array and outputs sorted array
+     *
      * @param args Command line arguments, not in use
      */
     public static void main(String[] args) {

@@ -12,13 +12,14 @@ public class Runner {
     /**
      * Private constructor to prevent object creation
      */
-    private Runner() {}
+    private Runner() {
+    }
 
     public static void main(String[] args) {
         var scanner = new by.bsuir.ovchelupov.lab1.Scanner();
         System.out.println("Enter x & y & h values:");
 
-        double[][] doubles = { };
+        double[][] doubles = {};
         double x = scanner.getDouble();
         double y = scanner.getDouble();
         double h = scanner.getDouble();
@@ -26,11 +27,11 @@ public class Runner {
         try {
             doubles = getTangentList(x, y, h);
             var table = getTableRepresentation(doubles);
-            for (String s: table) {
+            for (String s : table) {
                 System.out.println(s);
             }
 
-        } catch(IllegalArgumentException e) {
+        } catch (IllegalArgumentException e) {
             System.out.print("Invalid argument has passed");
         }
     }

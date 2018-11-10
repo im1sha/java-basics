@@ -19,6 +19,7 @@ public class Ball {
 
     /**
      * Gets ball's weight
+     *
      * @return Ball's weight
      */
     public double getWeight() {
@@ -27,6 +28,7 @@ public class Ball {
 
     /**
      * Gets ball's color
+     *
      * @return Ball's color
      */
     public String getColor() {
@@ -35,6 +37,7 @@ public class Ball {
 
     /**
      * Compares this object to argument
+     *
      * @param o Object to compare
      * @return True if objects are same, otherwise false
      */
@@ -54,6 +57,7 @@ public class Ball {
 
     /**
      * Generates hashcode of this object
+     *
      * @return Hash code of this object
      */
     @Override
@@ -63,6 +67,7 @@ public class Ball {
 
     /**
      * Generates string representation of this object
+     *
      * @return String representation of this object
      */
     @Override
@@ -72,6 +77,7 @@ public class Ball {
 
     /**
      * Constructor for Ball
+     *
      * @param weight Weight of ball. Should be positive finite number
      */
     public Ball(double weight, String color) {

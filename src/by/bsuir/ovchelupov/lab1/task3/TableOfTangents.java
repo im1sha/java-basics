@@ -5,10 +5,12 @@ package by.bsuir.ovchelupov.lab1.task3;
  */
 public class TableOfTangents {
 
-    private TableOfTangents() { }
+    private TableOfTangents() {
+    }
 
     /**
      * Returns table of arguments and functions values
+     *
      * @param a Min interval value
      * @param b Max interval value
      * @param h Step of positive value
@@ -23,7 +25,7 @@ public class TableOfTangents {
         if (!Double.isFinite(h)) {
             throw new IllegalArgumentException("step h should be finite");
         }
-        if (a > b){
+        if (a > b) {
             throw new IllegalArgumentException("value of b should be greater then value of a");
         }
         if (!Double.isFinite(a) || !Double.isFinite(b)) {
@@ -31,13 +33,13 @@ public class TableOfTangents {
         }
 
         int listLength = ((b - a) % h == 0)
-                ? (int)((b - a) / h + 1)
-                : (int)((b - a) / h + 2);
+                ? (int) ((b - a) / h + 1)
+                : (int) ((b - a) / h + 2);
         var result = new double[listLength][2];
 
         double currentValue = a;
         int i = 0;
-        while (i < listLength - 1){
+        while (i < listLength - 1) {
             result[i][0] = currentValue; // argument value
             result[i][1] = Math.tan(currentValue); // tangent value
             i++;
@@ -45,8 +47,8 @@ public class TableOfTangents {
         }
 
         /* add value of right border of an interval and its tangent to list */
-        result[listLength-1][0] = b;
-        result[listLength-1][1] = Math.tan(b);
+        result[listLength - 1][0] = b;
+        result[listLength - 1][1] = Math.tan(b);
 
         return result;
     }

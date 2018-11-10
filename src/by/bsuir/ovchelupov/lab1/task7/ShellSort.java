@@ -7,6 +7,7 @@ package by.bsuir.ovchelupov.lab1.task7;
 public class ShellSort {
     /**
      * Method to sort double array
+     *
      * @param array Array to sort
      */
     public static void sort(double[] array) {
@@ -34,5 +35,6 @@ public class ShellSort {
     /**
      * Private constructor to prevent object creation
      */
-    private ShellSort() {}
+    private ShellSort() {
+    }
 }

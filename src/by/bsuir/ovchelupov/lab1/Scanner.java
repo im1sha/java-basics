@@ -3,15 +3,17 @@ package by.bsuir.ovchelupov.lab1;
 /**
  * The Scanner class provides input handling
  *
- * @version 1.00 22 Sep 2018
  * @author Mikhail Ovchelupov
+ * @version 1.00 22 Sep 2018
  */
 public class Scanner {
 
-    public Scanner() { }
+    public Scanner() {
+    }
 
     /**
      * Handles string input until user enters correct double value
+     *
      * @return double value
      */
     public double getDouble() {
@@ -24,6 +26,7 @@ public class Scanner {
 
     /**
      * Gets positive double value from console
+     *
      * @return First positive double value
      */
     public double getPositiveDouble() {
@@ -36,6 +39,7 @@ public class Scanner {
 
     /**
      * Gets non-negative int from console
+     *
      * @return First non-negative int value
      */
     public int getNonNegativeInt() {
@@ -48,6 +52,7 @@ public class Scanner {
 
     /**
      * Gets int value from console
+     *
      * @return First int value
      */
     public int getInt() {
@@ -60,6 +65,7 @@ public class Scanner {
 
     /**
      * Gets first non-empty string from console
+     *
      * @return First string
      */
     public String getNonEmptyString() {
@@ -72,6 +78,7 @@ public class Scanner {
 
     /**
      * Gets first string from console
+     *
      * @return First string
      */
     public String getString() {

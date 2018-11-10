@@ -9,9 +9,10 @@ public class Runner {
     /**
      * Private constructor to prevent object creation
      */
-    private Runner() {}
+    private Runner() {
+    }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         var scanner = new by.bsuir.ovchelupov.lab1.Scanner();
         System.out.println("Enter x & y values:");
@@ -23,4 +24,3 @@ public class Runner {
         System.out.println("Result: " + result + "\n");
     }
 }
-

@@ -29,6 +29,7 @@ class BookJUnitTest {
 
     /**
      * Creates test book by ISBN
+     *
      * @param isbn ISBN to create book by
      * @return Generated book
      */

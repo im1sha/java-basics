@@ -6,12 +6,14 @@ package by.bsuir.ovchelupov.lab1.task1;
 public class Formula {
 
     /**
-     *  Private constructor prevents an object creation
+     * Private constructor prevents an object creation
      */
-    private Formula() { }
+    private Formula() {
+    }
 
     /**
      * Calculates predefined expression
+     *
      * @param x X Value of double type
      * @param y Y Value of double type
      * @return Calculated double value
@@ -19,10 +21,10 @@ public class Formula {
      */
     public static double calculateExpression(double x, double y) {
         // predefined constants
-        double numerator = 1 + Math.pow(Math.sin(x+y), 2);
+        double numerator = 1 + Math.pow(Math.sin(x + y), 2);
         double denominator = 2 + Math.abs(x - 2 * x /
-                (1 + Math.pow(x,2) * Math.pow(y, 2)));
-        double result =  numerator / denominator + x;
+                (1 + Math.pow(x, 2) * Math.pow(y, 2)));
+        double result = numerator / denominator + x;
 
         if (!Double.isFinite(result)) {
             throw new ArithmeticException("Result should be finite number");

@@ -2,10 +2,12 @@ package by.bsuir.ovchelupov.lab1.task8;
 
 public class Sequence {
 
-    private Sequence() { }
+    private Sequence() {
+    }
 
     /**
      * Returns positions of array A where to insert items from array B to get increasing sequence
+     *
      * @param sequenceA Array
      * @param sequenceB Array
      * @return Positions of array A where to insert items of array B

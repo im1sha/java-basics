@@ -6,6 +6,7 @@ import by.bsuir.ovchelupov.lab1.Scanner;
 public class Runner {
     /**
      * Fills basket with user's balls
+     *
      * @param basket Basket to fill
      */
     private static void fillBasket(Basket basket) {
@@ -27,6 +28,7 @@ public class Runner {
 
     /**
      * Entry point for program
+     *
      * @param args Command line arguments, not in use
      */
     public static void main(String[] args) {
@@ -48,5 +50,6 @@ public class Runner {
     /**
      * Constructor to avoid object creation
      */
-    private Runner() {}
+    private Runner() {
+    }
 }

@@ -1,6 +1,7 @@
 package by.bsuir.ovchelupov.lab1.task15;
 
 import by.bsuir.ovchelupov.lab1.task12.Book;
+
 import java.util.Comparator;
 import java.util.Objects;
 
@@ -15,10 +16,11 @@ public class BookTitleAuthorComparator implements Comparator<Book> {
 
     /**
      * Compares two books
+     *
      * @param book1 First book
      * @param book2 Second book
      * @return Negative integer, zero, or a positive integer as the first book is less than, equal to, or greater than
-     *         the second
+     * the second
      */
     @Override
     public int compare(Book book1, Book book2) {
@@ -31,6 +33,7 @@ public class BookTitleAuthorComparator implements Comparator<Book> {
 
     /**
      * Generates string representation of comparator
+     *
      * @return String representation of comparator
      */
     @Override
@@ -40,6 +43,7 @@ public class BookTitleAuthorComparator implements Comparator<Book> {
 
     /**
      * Checks if comparator equals to specified object
+     *
      * @param obj Object to check
      * @return True if comparator equals to specified object, otherwise false
      */
@@ -50,6 +54,7 @@ public class BookTitleAuthorComparator implements Comparator<Book> {
 
     /**
      * Generates hash code of comparator
+     *
      * @return Hash code of comparator
      */
     @Override
