@@ -17,8 +17,9 @@ public class TableOfTangents {
      * @return Result array of double[2]
      * where 1st element is argument value(x) and
      * 2nd one is tangent of x
+     * @throws IllegalArgumentException If wrong parameters were passed
      */
-    public static double[][] getTangentList(double a, double b, double h) {
+    public static double[][] getTangentList(double a, double b, double h) throws IllegalArgumentException {
         if (h <= 0) {
             throw new IllegalArgumentException("step h should be positive");
         }
@@ -40,8 +41,8 @@ public class TableOfTangents {
         double currentValue = a;
         int i = 0;
         while (i < listLength - 1) {
-            result[i][0] = currentValue; // argument value
-            result[i][1] = Math.tan(currentValue); // tangent value
+            result[i][0] = currentValue;            // argument value
+            result[i][1] = Math.tan(currentValue);  // tangent value
             i++;
             currentValue += h;
         }

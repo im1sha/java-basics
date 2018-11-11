@@ -7,8 +7,9 @@ import org.junit.jupiter.api.Test;
  * Class containing tests for PointOnPlane class
  */
 class PointOnPlaneTest {
+
     /**
-     * Tests for inRegion() method
+     * Tests inRegion() method
      */
     @Test
     void isPointInFigure() {

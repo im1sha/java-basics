@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9629cc8-04f8-4f1f-a0ee-a9220a1a380e" name="Default Changelist" comment="" />
+    <list default="true" id="a9629cc8-04f8-4f1f-a0ee-a9220a1a380e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task1/Formula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task1/Formula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task1/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task1/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task2/PointOnPlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task2/PointOnPlane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task2/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task2/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task3/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task3/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task3/TableOfTangents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task3/TableOfTangents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task3/TableRepresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task3/TableRepresentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task1/FormulaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task1/FormulaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task2/PointOnPlaneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task2/PointOnPlaneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task3/TableOfTangentsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task3/TableOfTangentsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task3/TableRepresentationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task3/TableRepresentationTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -163,93 +176,44 @@
     <session id="-593381327">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="java" value="36" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="36" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="5" />
+          <entry key="java" value="4492" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="4492" />
+          <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task1/Formula.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task1/Runner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task2/PointOnPlane.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task2/Runner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task3/Runner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task15/BookAuthorTitleComparator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task12/BookTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -259,6 +223,12 @@
         <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>INITIAL_COLUMN_LENGTH</find>
+      <find>cell</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -270,19 +240,10 @@
         <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task9/Basket.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task9/BasketballAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task9/Ball.java" />
-        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task2/PointOnPlane.java" />
         <option value="$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task2/RunnerTest.java" />
-        <option value="$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task2/PointOnPlaneTest.java" />
-        <option value="$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task1/FormulaTest.java" />
-        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task3/TableOfTangents.java" />
-        <option value="$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task3/TableOfTangentsTest.java" />
-        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task3/TableRepresentation.java" />
-        <option value="$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task3/TableRepresentationTest.java" />
         <option value="$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task4/PrimeNumbersTest.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task5/IncreasingSequence.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task6/SquareMatrix.java" />
-        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task2/Runner.java" />
-        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task3/Runner.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task4/Runner.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task5/Runner.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/Scanner.java" />
@@ -315,14 +276,23 @@
         <option value="$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task15/BookTitleComparatorTest.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task4/PrimeNumbers.java" />
         <option value="$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task5/IncreasingSequenceTest.java" />
+        <option value="$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task1/FormulaTest.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task2/PointOnPlane.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task1/Runner.java" />
+        <option value="$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task2/PointOnPlaneTest.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task2/Runner.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task1/Formula.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task3/TableOfTangents.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task3/TableRepresentation.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task3/Runner.java" />
+        <option value="$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task3/TableOfTangentsTest.java" />
+        <option value="$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task3/TableRepresentationTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="974" />
+    <option name="width" value="1085" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -333,8 +303,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -358,45 +327,36 @@
               <item name="java-basics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lab1" type="462c0819:PsiDirectoryNode" />
-              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="task4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-basics" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lab1" type="462c0819:PsiDirectoryNode" />
-              <item name="task2" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-basics" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="lab1" type="462c0819:PsiDirectoryNode" />
-              <item name="task3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-basics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lab1" type="462c0819:PsiDirectoryNode" />
-              <item name="task15" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541854727362" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541943394634" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -422,20 +382,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Runner (3)">
-    <configuration name="Runner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="by.bsuir.ovchelupov.lab1.task9.Runner" />
-      <module name="wt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="by.bsuir.ovchelupov.lab1.task9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TableRepresentationTest.checkRepresentation">
     <configuration name="Runner (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="by.bsuir.ovchelupov.lab1.task2.Runner" />
       <module name="wt" />
@@ -472,48 +419,64 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="FormulaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TableOfTangentsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.bsuir.ovchelupov.lab1.task1.*" />
+          <option name="PATTERN" value="by.bsuir.ovchelupov.lab1.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="by.bsuir.ovchelupov.lab1.task1" />
-      <option name="MAIN_CLASS_NAME" value="by.bsuir.ovchelupov.lab1.task1.FormulaTest" />
+      <option name="PACKAGE_NAME" value="by.bsuir.ovchelupov.lab1.task3" />
+      <option name="MAIN_CLASS_NAME" value="by.bsuir.ovchelupov.lab1.task3.TableOfTangentsTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PointOnPlaneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TableRepresentationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.bsuir.ovchelupov.lab1.task2.*" />
+          <option name="PATTERN" value="by.bsuir.ovchelupov.lab1.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="by.bsuir.ovchelupov.lab1.task2" />
-      <option name="MAIN_CLASS_NAME" value="by.bsuir.ovchelupov.lab1.task2.PointOnPlaneTest" />
+      <option name="PACKAGE_NAME" value="by.bsuir.ovchelupov.lab1.task3" />
+      <option name="MAIN_CLASS_NAME" value="by.bsuir.ovchelupov.lab1.task3.TableRepresentationTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TableRepresentationTest.checkRepresentation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.bsuir.ovchelupov.lab1.task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.bsuir.ovchelupov.lab1.task3" />
+      <option name="MAIN_CLASS_NAME" value="by.bsuir.ovchelupov.lab1.task3.TableRepresentationTest" />
+      <option name="METHOD_NAME" value="checkRepresentation" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Runner" />
-      <item itemvalue="Application.Runner (1)" />
-      <item itemvalue="JUnit.FormulaTest" />
-      <item itemvalue="JUnit.PointOnPlaneTest" />
       <item itemvalue="Application.Runner (3)" />
+      <item itemvalue="JUnit.TableOfTangentsTest" />
+      <item itemvalue="JUnit.TableRepresentationTest" />
+      <item itemvalue="JUnit.TableRepresentationTest.checkRepresentation" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Runner (3)" />
+        <item itemvalue="JUnit.TableRepresentationTest.checkRepresentation" />
         <item itemvalue="Application.Runner" />
-        <item itemvalue="JUnit.PointOnPlaneTest" />
-        <item itemvalue="JUnit.FormulaTest" />
-        <item itemvalue="Application.Runner (1)" />
+        <item itemvalue="JUnit.TableRepresentationTest" />
+        <item itemvalue="JUnit.TableOfTangentsTest" />
+        <item itemvalue="Application.Runner (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -531,35 +494,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BookJUnitTest - 2018.10.16 at 08h 03m 29s.xml">
-      <configuration name="BookJUnitTest" configurationId="JUnit" />
+    <history-entry file="FormulaTest_calculate - 2018.11.10 at 18h 51m 46s.xml">
+      <configuration name="FormulaTest.calculate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookJUnitTest - 2018.10.16 at 08h 19m 46s.xml">
-      <configuration name="BookJUnitTest" configurationId="JUnit" />
+    <history-entry file="FormulaTest_calculate - 2018.11.10 at 18h 54m 08s.xml">
+      <configuration name="FormulaTest.calculate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IncreasingSequenceTest_findPrimes - 2018.10.16 at 12h 24m 17s.xml">
-      <configuration name="IncreasingSequenceTest.findPrimes" configurationId="JUnit" />
+    <history-entry file="FormulaTest_calculate - 2018.11.10 at 18h 54m 46s.xml">
+      <configuration name="FormulaTest.calculate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IncreasingSequenceTest_findPrimes - 2018.10.16 at 12h 25m 26s.xml">
-      <configuration name="IncreasingSequenceTest.findPrimes" configurationId="JUnit" />
+    <history-entry file="TableOfTangentsTest - 2018.11.11 at 16h 29m 59s.xml">
+      <configuration name="TableOfTangentsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IncreasingSequenceTest_findPrimes - 2018.10.16 at 12h 25m 41s.xml">
-      <configuration name="IncreasingSequenceTest.findPrimes" configurationId="JUnit" />
+    <history-entry file="TableOfTangentsTest - 2018.11.11 at 16h 30m 43s.xml">
+      <configuration name="TableOfTangentsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IncreasingSequenceTest_findPrimes - 2018.10.16 at 12h 25m 58s.xml">
-      <configuration name="IncreasingSequenceTest.findPrimes" configurationId="JUnit" />
+    <history-entry file="TableRepresentationTest - 2018.11.11 at 16h 31m 19s.xml">
+      <configuration name="TableRepresentationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IncreasingSequenceTest_findPrimes - 2018.10.16 at 12h 26m 08s.xml">
-      <configuration name="IncreasingSequenceTest.findPrimes" configurationId="JUnit" />
+    <history-entry file="TableRepresentationTest_checkRepresentation - 2018.11.11 at 16h 33m 24s.xml">
+      <configuration name="TableRepresentationTest.checkRepresentation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IncreasingSequenceTest_findPrimes - 2018.11.07 at 11h 55m 05s.xml">
-      <configuration name="IncreasingSequenceTest.findPrimes" configurationId="JUnit" />
+    <history-entry file="TableRepresentationTest_checkRepresentation - 2018.11.11 at 16h 34m 01s.xml">
+      <configuration name="TableRepresentationTest.checkRepresentation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FormulaTest - 2018.11.10 at 10h 38m 01s.xml">
-      <configuration name="FormulaTest" configurationId="JUnit" />
+    <history-entry file="TableRepresentationTest_checkRepresentation - 2018.11.11 at 16h 35m 30s.xml">
+      <configuration name="TableRepresentationTest.checkRepresentation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PointOnPlaneTest - 2018.11.10 at 10h 38m 14s.xml">
-      <configuration name="PointOnPlaneTest" configurationId="JUnit" />
+    <history-entry file="TableRepresentationTest_checkRepresentation - 2018.11.11 at 16h 35m 39s.xml">
+      <configuration name="TableRepresentationTest.checkRepresentation" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -572,7 +535,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="1" />
@@ -582,16 +545,15 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.2646421" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3231106" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34164858" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2494577" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34056398" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.21577218" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286334" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.21475054" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.21583514" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.45454547" />
-      <window_info anchor="bottom" content_ui="combo" id="Project" order="11" weight="0.30151844" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.45444685" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -599,7 +561,8 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="7" visible="true" weight="0.15191898" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
     <layout-to-restore>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
@@ -609,16 +572,16 @@
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.2680851" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20591457" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2646421" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3033954" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34063527" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32968238" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.21475054" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.2155361" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32932165" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.21583514" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.45454547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -626,8 +589,8 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="8" visible="true" weight="0.27802294" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="7" visible="true" weight="0.14941406" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -659,28 +622,19 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task1/Runner.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task6/SquareMatrixTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task7/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task7/ShellSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task8/Sequence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -815,27 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task3/TableOfTangents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="29" column="93" selection-start-line="29" selection-start-column="93" selection-end-line="29" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task3/TableRepresentation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1250">
-          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task4/PrimeNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task9/Ball.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -885,20 +818,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/wt/by/bsuir/ovchelupov/lab1/task2/PointOnPlane.class" />
-    <entry file="file://$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task1/FormulaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task2/PointOnPlaneTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wt.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -915,11 +834,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4800" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/Scanner.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -940,24 +854,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task1/Formula.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task1/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
+        <state relative-caret-position="-3672" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task15/BookAuthorTitleComparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+        <state relative-caret-position="891">
+          <caret line="57" column="38" lean-forward="true" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -965,6 +870,97 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task1/FormulaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task2/PointOnPlaneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task2/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="7" selection-start-line="15" selection-start-column="4" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task2/PointOnPlane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task1/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task1/Formula.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task3/TableRepresentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="60" column="50" lean-forward="true" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getTableRepresentation#0;class#TableRepresentation#0" />
+            <element signature="method#getColumnsWidth#0;class#TableRepresentation#0" />
+            <element signature="method#getHorizontalLine#0;class#TableRepresentation#0" />
+            <element signature="method#getCellsContent#0;class#TableRepresentation#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task3/TableOfTangents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task4/PrimeNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task4/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task3/TableOfTangentsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-217">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task3/TableRepresentationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -973,22 +969,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task3/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task2/PointOnPlane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task2/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="310">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

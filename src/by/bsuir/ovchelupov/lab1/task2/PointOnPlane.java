@@ -1,7 +1,7 @@
 package by.bsuir.ovchelupov.lab1.task2;
 
 /**
- * The Formula class contains implementation of 2nd task
+ * The PointOnPlane class contains implementation of 2nd task
  */
 public class PointOnPlane {
 

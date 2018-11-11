@@ -18,9 +18,8 @@ class TableOfTangentsTest {
                         new double[]{right, Math.tan(right)}
                 },
                 TableOfTangents.getTangentList(left, right, step));
-        left = 5;
+
         right = 6.1;
-        step = 0.5;
         Assertions.assertArrayEquals(new double[][]{
                         new double[]{left, Math.tan(left)},
                         new double[]{left + 0.5, Math.tan(left + 0.5)},

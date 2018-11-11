@@ -1,7 +1,12 @@
 package by.bsuir.ovchelupov.lab1.task3;
 
+import java.text.DecimalFormat;
+import java.util.Arrays;
 import java.util.LinkedList;
 
+/**
+ * TableRepresentation class implements visual table representation
+ */
 public class TableRepresentation {
 
     private TableRepresentation() {
@@ -10,73 +15,161 @@ public class TableRepresentation {
     /**
      * Creates table using two dimensional array
      *
-     * @param values Two dimensional array
-     * @return String representing table
+     * @param tableValues Two dimensional array
+     * @return String table representation
+     * @throws IllegalArgumentException If wrong parameters were passed
      */
-    public static LinkedList<String> getTableRepresentation(double[][] values) {
-        final int RESERVED = 3; // positions that's reserved by .##
-        int leftColumnLength = 1;
-        int rightColumnLength = 1;
-        int currentLeftValue, currentRightValue;
-        boolean isLeftValueNegative;
-        boolean isRightValueNegative;
-        for (int i = 0; i < values.length; ++i) {
-            isLeftValueNegative = false;
-            isRightValueNegative = false;
+    public static LinkedList<String> getTableRepresentation(double[][] tableValues) throws IllegalArgumentException {
 
-            if (values[i][0] < 0) {
-                isLeftValueNegative = true;
-            }
-            currentLeftValue = (int) (RESERVED + 1 + Math.log10(Math.ceil(Math.abs(values[i][0]))));
+        final int RESERVED_BY_FRACTION = 3; // positions which're reserved for fractional part (.00)
 
-            if (currentLeftValue >= leftColumnLength) {
-                currentLeftValue += (isLeftValueNegative) ? 1 : 0;
-                leftColumnLength = currentLeftValue;
-            }
-
-            if (values[i][1] < 0) {
-                isRightValueNegative = true;
-            }
-            currentRightValue = (int) (RESERVED + 1 + Math.log10(Math.ceil(Math.abs(values[i][1]))));
-
-            if (currentRightValue >= rightColumnLength) {
-                currentRightValue += (isRightValueNegative) ? 1 : 0;
-                rightColumnLength = currentRightValue;
+        if (tableValues == null) {
+            throw new IllegalArgumentException("Table should contain 1 element at least");
+        }
+        for (double[] lineValues : tableValues) {
+            if (lineValues == null || tableValues[0].length != lineValues.length) {
+                throw new IllegalArgumentException("It should be the same amount of elements in each row");
             }
         }
 
-        LinkedList<String> result = new LinkedList<String>();
-        StringBuilder line = new StringBuilder();
-        line.append(" + ");
-        for (int j = 0; j < leftColumnLength; ++j) {
-            line.append('-');
-        }
-        line.append(" + ");
-        for (int j = 0; j < rightColumnLength; ++j) {
-            line.append('-');
-        }
-        line.append(" + ");
-        result.add(line.toString());
-        for (int i = 0; i < values.length; ++i) {
-            var leftCellSb = new StringBuilder(new java.text.DecimalFormat("#.##").format(values[i][0]));
-            var right = new StringBuilder(new java.text.DecimalFormat("#.##").format(values[i][1]));
-            var rightCellSb = new StringBuilder();
+        int[] columnWidth = getColumnsWidth(tableValues, RESERVED_BY_FRACTION);
 
-            int appendToLeft = leftColumnLength - leftCellSb.length();
-            int appendToRight = rightColumnLength - right.length();
-            for (int j = 0; j < appendToLeft; ++j) {
-                leftCellSb.append(' ');
+        LinkedList<String> representation = new LinkedList<>();
+        String horizontalLine = getHorizontalLine(columnWidth);
+
+        representation.add(horizontalLine);
+
+        /* fill table with values */
+        LinkedList<String[]> cells = getCellsContent(tableValues, columnWidth, RESERVED_BY_FRACTION);
+        for (var cell : cells) {
+            StringBuilder line = new StringBuilder(" | ");
+            for (var c : cell) {
+                line.append(c + " | ");
+            }
+            representation.add(line.toString());
+        }
+
+        representation.add(horizontalLine);
+
+        return representation;
+    }
+
+    /**
+     * Calculates width required by each of the columns of the passed array
+     *
+     * @param tableContent two dimensional array of values to place to table
+     * @param fractionalPartLength fraction length
+     * @return length of each of the columns
+     * @throws IllegalArgumentException If null passed
+     */
+    private static int[] getColumnsWidth(double[][] tableContent, int fractionalPartLength) throws IllegalArgumentException {
+
+        if (tableContent == null) {
+            throw new IllegalArgumentException("null passed as parameter");
+        }
+
+        int[] columnWidth = new int[tableContent[0].length];
+        Arrays.fill(columnWidth, 1); // columns min width
+
+        int[] currentWidth = new int[columnWidth.length];
+        boolean[] isValueNegative = new boolean[columnWidth.length];
+
+        for (double[] lineValues : tableContent) {
+
+            Arrays.fill(isValueNegative, false);
+
+            for (int i = 0; i < columnWidth.length; i++) {
+                if (lineValues[i] < 0) {
+                    isValueNegative[i] = true;
+                }
+
+                // total chars required for string representation of number
+                int valueLength = (int) Math.log10(Math.ceil(Math.abs(lineValues[i])));
+
+                currentWidth[i] = fractionalPartLength + 1 + valueLength;
+
+                // calculate longest value length
+                if (currentWidth[i] >= columnWidth[i]) {
+                    currentWidth[i] += (isValueNegative[i]) ? 1 : 0; // add 1 position for minus sign
+                    columnWidth[i] = currentWidth[i];
+                }
+            }
+        }
+        return columnWidth;
+    }
+
+    /**
+     * Returns horizontal line string representation
+     *
+     * @param columnWidth width of each of the column
+     * @return horizontal line represented as string
+     * @throws IllegalArgumentException if null was passed as parameter
+     */
+    private static String getHorizontalLine(int[] columnWidth) throws IllegalArgumentException {
+
+        if (columnWidth == null) {
+            throw new IllegalArgumentException("columnWidth should be not null");
+        }
+
+        StringBuilder horizontalLine = new StringBuilder();
+        for (int i = 0; i < columnWidth.length; i++) {
+            horizontalLine.append(" + ");
+            for (int j = 0; j < columnWidth[i]; j++) {
+                horizontalLine.append('-');
+            }
+        }
+        horizontalLine.append(" + ");
+        return horizontalLine.toString();
+    }
+
+    /**
+     * Transforms double representation of numbers to string representation
+     *
+     * @param values      values to transform
+     * @param columnWidth width that should be filled by value
+     * @return string representation of numbers
+     * @throws IllegalArgumentException If array passed to method is not rectangular
+     */
+    private static LinkedList<String[]> getCellsContent(double[][] values, int[] columnWidth, int reservedByFraction) throws IllegalArgumentException {
+
+        if (values == null || columnWidth == null) {
+            throw new IllegalArgumentException("arguments shouldn't have null values");
+        }
+
+        if (values[0].length != columnWidth.length) {
+            throw new IllegalArgumentException("arguments should have the same length");
+        }
+
+        int totalColumns = columnWidth.length;
+
+        var result = new LinkedList<String[]>();
+
+        String representationPattern = "0.";
+        int fractionLength = Math.max(".0".length() - ".".length(), reservedByFraction - ".".length()); // it should be 1 digit after point at least
+
+        for (int i = 0; i < fractionLength; i++) {
+            representationPattern += "0";
+        }
+
+        for (double[] argumentAndFunction : values) {
+
+            String[] content = new String[totalColumns];     // values from value argument
+            String[] cell = new String[totalColumns];        // formatted cell content
+            int[] shouldBeAppended = new int[totalColumns];  // left indent inside of a cell
+
+            for (int i = 0; i < totalColumns; i++) {
+                content[i] = new DecimalFormat(representationPattern).format(argumentAndFunction[i]);
+                shouldBeAppended[i] = columnWidth[i] - content[i].length();
+                cell[i] = "";
+                for (int j = 0; j < shouldBeAppended[i]; j++) {
+                    cell[i] += " ";
+                }
+                cell[i] += content[i];
             }
 
-            for (int j = 0; j < appendToRight; ++j) {
-                rightCellSb.append(' ');
-            }
-            rightCellSb.append(right);
-
-            String stringToAppend = " | " + leftCellSb + " | " + rightCellSb + " | ";
-            result.add(stringToAppend);
+            result.add(cell);
         }
-        result.add(line.toString());
+
         return result;
     }
 }
