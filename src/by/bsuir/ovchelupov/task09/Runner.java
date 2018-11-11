@@ -1,6 +1,6 @@
 package by.bsuir.ovchelupov.task09;
 
-import by.bsuir.ovchelupov.Scanner;
+import by.bsuir.ovchelupov.utils.Scanner;
 
 
 public class Runner {

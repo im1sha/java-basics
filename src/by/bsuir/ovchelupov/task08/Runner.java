@@ -1,16 +1,17 @@
 package by.bsuir.ovchelupov.task08;
 
-import by.bsuir.ovchelupov.Scanner;
+import by.bsuir.ovchelupov.utils.Scanner;
 
 public class Runner {
+
     /**
-     * Constructor to avoid object creation
+     * Constructor to avoid instance creation
      */
     private Runner() {
     }
 
     /**
-     * Entry point for program. Inputs array and outputs sorted array
+     * Starts application. Outputs sorted array
      *
      * @param args Command line arguments, not in use
      */
@@ -22,11 +23,11 @@ public class Runner {
         double[] arrayB = new double[size];
 
         for (int index = 0; index < arrayA.length; index++) {
-            System.out.print("Enter A " + (index + 1) + " of " + arrayA.length + ": ");
+            System.out.print("Enter A #" + (index + 1) + " of " + arrayA.length + ": ");
             arrayA[index] = scanner.getDouble();
         }
         for (int index = 0; index < arrayB.length; index++) {
-            System.out.print("Enter B " + (index + 1) + " of " + arrayB.length + ": ");
+            System.out.print("Enter B #" + (index + 1) + " of " + arrayB.length + ": ");
             arrayB[index] = scanner.getDouble();
         }
 

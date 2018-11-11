@@ -1,6 +1,6 @@
 package by.bsuir.ovchelupov.task01;
 
-import by.bsuir.ovchelupov.Scanner;
+import by.bsuir.ovchelupov.utils.Scanner;
 
 import static by.bsuir.ovchelupov.task01.Formula.calculateExpression;
 

@@ -2,29 +2,32 @@ package by.bsuir.ovchelupov.task07;
 
 
 /**
- * Class with Shell sort implementation
+ * Class with sort implementations
  */
-public class ShellSort {
+public class Sort {
+
     /**
-     * Method to sort double array
+     * Sorts double array using Shell sort algorithm
      *
      * @param array Array to sort
      */
-    public static void sort(double[] array) {
-        int currentIndex = 0;
-        double buffer;
+    public static void shellSort(double[] array) {
 
         if (array == null) {
             throw new IllegalArgumentException("Array shouldn't be null");
         }
 
+        int currentIndex = 0;
+
         while (currentIndex < array.length - 1) {
             if (array[currentIndex] <= array[currentIndex + 1]) {
                 currentIndex++;
             } else {
-                buffer = array[currentIndex];
+                // swap values
+                double buffer = array[currentIndex];
                 array[currentIndex] = array[currentIndex + 1];
                 array[currentIndex + 1] = buffer;
+
                 if (currentIndex > 0) {
                     currentIndex--;
                 }
@@ -35,6 +38,6 @@ public class ShellSort {
     /**
      * Private constructor to prevent object creation
      */
-    private ShellSort() {
+    private Sort() {
     }
 }

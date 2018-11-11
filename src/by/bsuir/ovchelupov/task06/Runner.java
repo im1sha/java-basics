@@ -1,16 +1,17 @@
 package by.bsuir.ovchelupov.task06;
 
-import by.bsuir.ovchelupov.Scanner;
+import by.bsuir.ovchelupov.utils.Scanner;
 
 public class Runner {
+
     /**
-     * Private constructor to prevent object creation
+     * Prevents instance creation
      */
     private Runner() {
     }
 
     /**
-     * Entry point of demonstration program
+     * Entry point of program
      *
      * @param args Command line arguments, not in use
      */

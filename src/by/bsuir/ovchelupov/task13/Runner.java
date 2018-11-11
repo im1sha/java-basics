@@ -1,6 +1,6 @@
 package by.bsuir.ovchelupov.task13;
 
-import by.bsuir.ovchelupov.Scanner;
+import by.bsuir.ovchelupov.utils.Scanner;
 import by.bsuir.ovchelupov.task12.Book;
 
 public class Runner {

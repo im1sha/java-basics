@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 class PrimeNumbersTest {
 
     /**
-     * Tests for PrimeNumbers.PrimePositions() method
+     * Tests PrimeNumbers.PrimePositions() method
      */
     @Test
     void findPrimes() {

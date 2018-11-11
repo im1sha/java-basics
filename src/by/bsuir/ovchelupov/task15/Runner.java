@@ -1,6 +1,6 @@
 package by.bsuir.ovchelupov.task15;
 
-import by.bsuir.ovchelupov.Scanner;
+import by.bsuir.ovchelupov.utils.Scanner;
 import by.bsuir.ovchelupov.task12.Book;
 
 import java.util.ArrayList;
@@ -60,7 +60,7 @@ public class Runner {
         int booksCount;
         ArrayList<Comparator<Book>> comparators = getComparators();
 
-        System.out.print("Enter number of books to sort: ");
+        System.out.print("Enter number of books to shellSort: ");
         var scanner = new Scanner();
         booksCount = scanner.getNonNegativeInt();
 

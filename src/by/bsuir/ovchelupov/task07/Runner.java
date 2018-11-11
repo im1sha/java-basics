@@ -1,20 +1,17 @@
 package by.bsuir.ovchelupov.task07;
 
-import by.bsuir.ovchelupov.Scanner;
+import by.bsuir.ovchelupov.utils.Scanner;
 
 /**
- * Class to demonstrate task 7 implementation
+ * Class to demonstrate 7th task implementation
  */
 public class Runner {
 
-    /**
-     * Constructor to avoid object creation
-     */
     private Runner() {
     }
 
     /**
-     * Entry point for program. Inputs array and outputs sorted array
+     * Outputs sorted array
      *
      * @param args Command line arguments, not in use
      */
@@ -29,7 +26,7 @@ public class Runner {
             array[index] = scanner.getDouble();
         }
 
-        ShellSort.sort(array);
+        Sort.shellSort(array);
 
         for (double value : array) {
             stringBuilder.append(value);

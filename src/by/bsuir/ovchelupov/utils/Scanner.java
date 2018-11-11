@@ -1,4 +1,4 @@
-package by.bsuir.ovchelupov;
+package by.bsuir.ovchelupov.utils;
 
 /**
  * The Scanner class provides input handling

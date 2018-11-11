@@ -1,7 +1,7 @@
 package by.bsuir.ovchelupov.task03;
 
 
-import by.bsuir.ovchelupov.Scanner;
+import by.bsuir.ovchelupov.utils.Scanner;
 
 import static by.bsuir.ovchelupov.task03.TableOfTangents.getTangentList;
 import static by.bsuir.ovchelupov.task03.TableRepresentation.getTableRepresentation;

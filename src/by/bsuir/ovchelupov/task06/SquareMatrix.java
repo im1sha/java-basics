@@ -1,68 +1,37 @@
 package by.bsuir.ovchelupov.task06;
 
-import java.util.ArrayList;
-import java.util.ListIterator;
-
 public class SquareMatrix {
-    /**
-     * Converts double array to ArrayList
-     *
-     * @param array Array to convert
-     * @return Converted ArrayList
-     */
-    private static ArrayList<Double> arrayToList(double[] array) {
-        ArrayList<Double> list = new ArrayList<>();
-
-        if (array == null) {
-            throw new IllegalArgumentException("Array shouldn't be null");
-        }
-
-        for (double number : array) {
-            list.add(number);
-        }
-
-        return list;
-    }
 
     /**
-     * Generates square matrix by array
+     * Generates square matrix by passed one dimensional array
      *
      * @param array Array used to generate matrix
      * @return Generated matrix
      */
     public static double[][] generate(double[] array) {
-        ArrayList<Double> list;
-        ListIterator<Double> iterator;
         double[][] result;
 
         if (array == null) {
-            throw new IllegalArgumentException("Array of elements shouldn't be null");
+            throw new IllegalArgumentException("Passed array shouldn't be null");
         }
         if (array.length == 0) {
             return new double[0][0];
         }
 
-        list = arrayToList(array);
-        iterator = list.listIterator();
-        result = new double[array.length][array.length];
+        int length = array.length;
 
-        for (double[] subArray : result) {
-            for (int index = 0; index < subArray.length; index++) {
-                if (!iterator.hasNext()) {
-                    iterator = list.listIterator();
-                }
-                subArray[index] = iterator.next();
+        result = new double[length][length];
+
+        for (int i = 0; i < length; i++) {
+            for (int j = 0; j < length; j++) {
+                result[i][j] = array[(i + j) % length];
             }
-            if (!iterator.hasNext()) {
-                iterator = list.listIterator();
-            }
-            iterator.next();
         }
         return result;
     }
 
     /**
-     * Private constructor to prevent object creation
+     * prevents instance creation
      */
     private SquareMatrix() {
     }

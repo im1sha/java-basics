@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 class SquareMatrixTest {
 
     /**
-     * Tests for generate() method
+     * Tests SquareMatrix.generate() method
      */
     @Test
     void generate() {

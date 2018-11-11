@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Assertions;
 class TableOfTangentsTest {
 
     /**
-     * Tests for TableOfTangents.getTangentList() method
+     * Tests TableOfTangents.getTangentList() method
      */
     @Test
     void checkTangentList() {
