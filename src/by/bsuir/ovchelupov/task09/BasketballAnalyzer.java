@@ -1,11 +1,12 @@
 package by.bsuir.ovchelupov.task09;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 
 /**
- * Class to analyse basket of balls
+ * Class to analyze Basket instance
  */
 public final class BasketballAnalyzer {
+
     /**
      * Gets weight of all balls in basket
      *
@@ -13,45 +14,48 @@ public final class BasketballAnalyzer {
      * @return Total weight of all balls
      */
     public static double getBallsWeight(Basket basket) {
-        double weight = 0;
 
         if (basket == null) {
             throw new IllegalArgumentException("Basket shouldn't be null");
         }
 
-        for (Ball ball : basket.getBalls()) {
+        double weight = 0;
+
+        for (Ball ball : basket.getBallList()) {
             weight += ball.getWeight();
         }
+
         return weight;
     }
 
     /**
-     * Gets list of ball by color
+     * Gets list of balls by color
      *
      * @param basket Basket to get balls from
-     * @param color  Color of balls
-     * @return List of balls by color
+     * @param color  string representation of the balls color
+     * @return List of all the balls of a passed color
      */
-    public static ArrayList<Ball> getBallsByColor(Basket basket, String color) {
-        ArrayList<Ball> coloredBalls = new ArrayList<>();
+    public static LinkedList<Ball> getBallsByColor(Basket basket, String color) {
+        LinkedList<Ball> suitedBalls = new LinkedList<>();
 
         if (basket == null) {
             throw new IllegalArgumentException("Basket shouldn't be null");
         }
+
         if ((color == null) || color.isEmpty()) {
-            throw new IllegalArgumentException("You should set color to search for");
+            throw new IllegalArgumentException("Color is undefined");
         }
 
-        for (Ball ball : basket.getBalls()) {
+        for (Ball ball : basket.getBallList()) {
             if (ball.getColor().toLowerCase().equals(color.toLowerCase())) {
-                coloredBalls.add(ball);
+                suitedBalls.add(ball);
             }
         }
-        return coloredBalls;
+        return suitedBalls;
     }
 
     /**
-     * Private constructor to prevent object creation
+     * Private constructor to prevent instance creation
      */
     private BasketballAnalyzer() {
     }

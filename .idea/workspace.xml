@@ -3,25 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="a9629cc8-04f8-4f1f-a0ee-a9220a1a380e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/utils/Scanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task01/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task01/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task02/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task02/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task03/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task03/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task05/IncreasingSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task05/IncreasingSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task06/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task06/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task06/SquareMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task06/SquareMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task07/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task07/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task07/ShellSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task08/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task08/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task08/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task08/Sequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task09/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task09/Ball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task09/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task09/Basket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task09/BasketballAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task09/BasketballAnalyzer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task09/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task09/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task12/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task12/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task13/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task13/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/by/bsuir/ovchelupov/task03/TableOfTangentsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/by/bsuir/ovchelupov/task03/TableOfTangentsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/by/bsuir/ovchelupov/task04/PrimeNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/by/bsuir/ovchelupov/task04/PrimeNumbersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/by/bsuir/ovchelupov/task05/IncreasingSequenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/by/bsuir/ovchelupov/task05/IncreasingSequenceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/by/bsuir/ovchelupov/task06/SquareMatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/by/bsuir/ovchelupov/task06/SquareMatrixTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/by/bsuir/ovchelupov/task09/BasketballAnalyzerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/by/bsuir/ovchelupov/task09/BasketballAnalyzerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/by/bsuir/ovchelupov/task12/BookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/by/bsuir/ovchelupov/task12/BookTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -184,46 +171,74 @@
     <session id="-593381327">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="78" />
+          <entry key="java" value="92" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="78" />
+          <entry key="JAVA" value="92" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="5" />
-          <entry key="java" value="6118" />
+          <entry key="dummy" value="9" />
+          <entry key="java" value="6615" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6118" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="JAVA" value="6615" />
+          <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task12/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task12/Runner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/by/bsuir/ovchelupov/task12/BookTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -238,6 +253,7 @@
     <findStrings>
       <find>INITIAL_COLUMN_LENGTH</find>
       <find>cell</find>
+      <find>getBallList</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -246,12 +262,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task7/ShellSortTest.java" />
-        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task8/Sequence.java" />
-        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task8/Runner.java" />
-        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task9/Runner.java" />
-        <option value="$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task9/BasketballAnalyzerTest.java" />
-        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task12/Book.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task12/Runner.java" />
         <option value="$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task12/BookTest.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task13/ProgrammerBook.java" />
@@ -297,6 +307,12 @@
         <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task07/Sort.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task08/Sequence.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task08/Runner.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task09/Ball.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task09/Basket.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task09/BasketballAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task09/Runner.java" />
+        <option value="$PROJECT_DIR$/test/by/bsuir/ovchelupov/task12/BookTest.java" />
+        <option value="$PROJECT_DIR$/test/by/bsuir/ovchelupov/task09/BasketballAnalyzerTest.java" />
       </list>
     </option>
   </component>
@@ -306,9 +322,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="1138" />
+    <option name="width" value="1153" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -319,8 +335,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -344,7 +358,7 @@
               <item name="java-basics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ovchelupov" type="462c0819:PsiDirectoryNode" />
-              <item name="task09" type="462c0819:PsiDirectoryNode" />
+              <item name="task12" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-basics" type="b2602c69:ProjectViewProjectNode" />
@@ -362,24 +376,26 @@
               <item name="java-basics" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="ovchelupov" type="462c0819:PsiDirectoryNode" />
-              <item name="task09" type="462c0819:PsiDirectoryNode" />
+              <item name="task12" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541966226257" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541972048807" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -388,6 +404,9 @@
       <recent name="by.bsuir.ovchelupov.lab1.task9" />
       <recent name="by.bsuir.ovchelupov.lab1.task7" />
       <recent name="by.bsuir.ovchelupov.lab1.task6" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="by.bsuir.ovchelupov.task09" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -405,7 +424,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Runner (1)">
+  <component name="RunManager" selected="JUnit.All in wt">
     <configuration name="Runner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="by.bsuir.ovchelupov.task08.Runner" />
       <module name="wt" />
@@ -419,12 +438,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="by.bsuir.ovchelupov.task05.Runner" />
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.bsuir.ovchelupov.task06.Runner" />
       <module name="wt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.bsuir.ovchelupov.task05.*" />
+          <option name="PATTERN" value="by.bsuir.ovchelupov.task06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -433,11 +452,11 @@
       </method>
     </configuration>
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="by.bsuir.ovchelupov.task06.Runner" />
+      <option name="MAIN_CLASS_NAME" value="by.bsuir.ovchelupov.task09.Runner" />
       <module name="wt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.bsuir.ovchelupov.task06.*" />
+          <option name="PATTERN" value="by.bsuir.ovchelupov.task09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -476,36 +495,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IncreasingSequenceTest.findPrimes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BasketballAnalyzerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.bsuir.ovchelupov.task05.*" />
+          <option name="PATTERN" value="by.bsuir.ovchelupov.task09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="by.bsuir.ovchelupov.task05" />
-      <option name="MAIN_CLASS_NAME" value="by.bsuir.ovchelupov.task05.IncreasingSequenceTest" />
-      <option name="METHOD_NAME" value="findPrimes" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="by.bsuir.ovchelupov.task09" />
+      <option name="MAIN_CLASS_NAME" value="by.bsuir.ovchelupov.task09.BasketballAnalyzerTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Runner (2)" />
-      <item itemvalue="JUnit.All in wt" />
-      <item itemvalue="JUnit.IncreasingSequenceTest.findPrimes" />
       <item itemvalue="Application.Runner" />
       <item itemvalue="Application.Runner (1)" />
+      <item itemvalue="JUnit.BasketballAnalyzerTest" />
+      <item itemvalue="JUnit.All in wt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Runner (1)" />
-        <item itemvalue="Application.Runner (1)" />
-        <item itemvalue="Application.Runner" />
         <item itemvalue="JUnit.All in wt" />
-        <item itemvalue="JUnit.IncreasingSequenceTest.findPrimes" />
+        <item itemvalue="JUnit.BasketballAnalyzerTest" />
+        <item itemvalue="Application.Runner (1)" />
+        <item itemvalue="Application.Runner (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -523,18 +538,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PrimeNumbersTest_findPrimes_(1) - 2018.11.11 at 20h 11m 33s.xml">
-      <configuration name="PrimeNumbersTest.findPrimes (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeNumbersTest_findPrimes_(1) - 2018.11.11 at 20h 15m 17s.xml">
-      <configuration name="PrimeNumbersTest.findPrimes (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_wt - 2018.11.11 at 21h 04m 21s.xml">
-      <configuration name="All in wt" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IncreasingSequenceTest_findPrimes - 2018.11.11 at 21h 10m 42s.xml">
-      <configuration name="IncreasingSequenceTest.findPrimes" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="IncreasingSequenceTest_findPrimes - 2018.11.11 at 21h 11m 54s.xml">
       <configuration name="IncreasingSequenceTest.findPrimes" configurationId="JUnit" />
     </history-entry>
@@ -553,6 +556,18 @@
     <history-entry file="All_in_wt - 2018.11.11 at 21h 47m 32s.xml">
       <configuration name="All in wt" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BasketAnalyzerJUnitTest - 2018.11.11 at 23h 44m 29s.xml">
+      <configuration name="BasketAnalyzerJUnitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BasketAnalyzerJUnitTest - 2018.11.11 at 23h 53m 23s.xml">
+      <configuration name="BasketAnalyzerJUnitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BasketAnalyzerJUnitTest - 2018.11.12 at 00h 06m 59s.xml">
+      <configuration name="BasketAnalyzerJUnitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_wt - 2018.11.12 at 00h 21m 26s.xml">
+      <configuration name="All in wt" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -564,7 +579,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1138" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="1" />
@@ -573,8 +589,8 @@
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.26396495" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22343922" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2635575" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2635575" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34056398" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -590,7 +606,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="7" visible="true" weight="0.2012987" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="7" visible="true" weight="0.1988273" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32995737" />
     </layout>
     <layout-to-restore>
@@ -676,27 +692,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/by/bsuir/ovchelupov/task15/BookAuthorComparatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/by/bsuir/ovchelupov/task15/BookAuthorTitleComparatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookAuthorTitlePriceComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/by/bsuir/ovchelupov/task15/BookAuthorTitlePriceComparatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -746,34 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task09/Ball.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task09/Basket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task09/BasketballAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task09/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -819,13 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="891">
           <caret line="57" column="38" lean-forward="true" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/by/bsuir/ovchelupov/task12/BookTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -913,9 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="628">
           <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -982,31 +939,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task06/SquareMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/by/bsuir/ovchelupov/task06/SquareMatrixTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task07/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
           <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task07/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -1017,10 +953,104 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task09/Ball.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#1172#1173#0" expanded="true" />
+            <element signature="e#1232#1233#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task09/Basket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1302">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task09/BasketballAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task08/Sequence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task07/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task06/SquareMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task09/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/by/bsuir/ovchelupov/task09/BasketballAnalyzerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="48" column="67" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/by/bsuir/ovchelupov/task06/SquareMatrixTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/by/bsuir/ovchelupov/task12/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task12/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task12/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>

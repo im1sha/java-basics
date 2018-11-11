@@ -38,31 +38,32 @@ public class Ball {
     /**
      * Compares this object to argument
      *
-     * @param o Object to compare
-     * @return True if objects are same, otherwise false
+     * @param obj Object to compare
+     * @return True if objects are same and false otherwise
      */
     @Override
-    public boolean equals(Object o) {
+    public boolean equals(Object obj) {
 
-        if (this == o) {
+        if (this == obj) {
             return true;
         }
-        if ((o == null) || (getClass() != o.getClass())) {
+
+        if ((obj == null) || (this.getClass() != obj.getClass())) {
             return false;
         }
 
-        Ball ball = (Ball) o;
-        return (ball.weight == weight) && Objects.equals(ball.color, color);
+        Ball ball = (Ball) obj;
+        return (ball.weight == this.weight) && Objects.equals(ball.color, this.color);
     }
 
     /**
-     * Generates hashcode of this object
+     * Generates hashcode of object
      *
-     * @return Hash code of this object
+     * @return Hash code of object
      */
     @Override
     public int hashCode() {
-        return Objects.hash(weight, color);
+        return Objects.hash(this.weight, this.color);
     }
 
     /**
@@ -72,13 +73,13 @@ public class Ball {
      */
     @Override
     public String toString() {
-        return getClass().getName() + "@weight: " + weight + ", color: " + color;
+        return this.getClass().getName() + "@weight: " + this.weight + ", color: " + this.color;
     }
 
     /**
-     * Constructor for Ball
+     * Creates Ball instance
      *
-     * @param weight Weight of ball. Should be positive finite number
+     * @param weight Weight of creating Ball instance. Should has positive finite value
      */
     public Ball(double weight, String color) {
         if (!Double.isFinite(weight)) {

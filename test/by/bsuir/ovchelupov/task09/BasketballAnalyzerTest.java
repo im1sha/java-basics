@@ -1,33 +1,38 @@
 package by.bsuir.ovchelupov.task09;
 
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 /**
  * Tests for BasketAnalyzer class
  */
-class BasketAnalyzerJUnitTest {
+class BasketballAnalyzerTest {
+
     /**
-     * Tests for getBallsWeight() method
+     * Tests getBallsWeight()
      */
     @Test
     void getBallsWeight() {
+
         Basket basket = new Basket();
-        Ball ball1 = new Ball(1, "red"), ball2 = new Ball(2, "green");
+
+        Ball ball1 = new Ball(1, "red");
+        Ball ball2 = new Ball(2, "green");
 
         Assertions.assertThrows(IllegalArgumentException.class, () -> BasketballAnalyzer.getBallsWeight(null));
         Assertions.assertEquals(0, BasketballAnalyzer.getBallsWeight(basket));
+
         basket.addBall(ball1);
         basket.addBall(ball2);
         Assertions.assertEquals(ball1.getWeight() + ball2.getWeight(), BasketballAnalyzer.getBallsWeight(basket));
     }
 
     /**
-     * Tests for getBallsByColor() method
+     * Tests getBallsByColor()
      */
     @Test
     void getBallsByColor() {
+
         Basket basket = new Basket();
 
         Assertions.assertThrows(IllegalArgumentException.class, () -> BasketballAnalyzer.getBallsByColor(null, "color"));

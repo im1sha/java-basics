@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Tests for Book class
  */
-class BookJUnitTest {
+class BookTest {
     /**
      * Default title of test book
      */

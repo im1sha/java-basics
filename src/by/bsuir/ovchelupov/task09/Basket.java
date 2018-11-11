@@ -1,6 +1,5 @@
 package by.bsuir.ovchelupov.task09;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Objects;
 
@@ -8,10 +7,11 @@ import java.util.Objects;
  * Class describing Basket
  */
 public final class Basket {
+
     /**
-     * Balls of Basket
+     * Contained Balls
      */
-    private LinkedList<Ball> balls;
+    private LinkedList<Ball> ballList;
 
     /**
      * Adds ball to basket
@@ -19,72 +19,41 @@ public final class Basket {
      * @param ball Ball to add
      */
     public void addBall(Ball ball) {
+
         if (ball == null) {
-            throw new IllegalArgumentException("Ball shouldn't be null");
+            throw new IllegalArgumentException("Argument shouldn't be null");
         }
 
-        balls.add(ball);
+        ballList.add(ball);
     }
 
     /**
-     * Returns last ball of basket and removes it
-     *
-     * @return Last ball of basket and removes it, or null if basket is empty
-     */
-    public Ball popBall() {
-        return balls.pollLast();
-    }
-
-    /**
-     * Removes all balls from basket
-     */
-    public void emptyBasket() {
-        balls.clear();
-    }
-
-    /**
-     * Checks if basket is empty
-     *
-     * @return True if basket is empty, otherwise false
-     */
-    public boolean isEmpty() {
-        return getBallsCount() == 0;
-    }
-
-    /**
-     * Gets amount of balls in basket
-     *
-     * @return Amount of balls in basket
-     */
-    public int getBallsCount() {
-        return balls.size();
-    }
-
-    /**
-     * Gets all balls of basket
+     * Gets copy of all the balls of this basket
      *
      * @return All balls of basket
      */
-    public ArrayList<Ball> getBalls() {
-        return new ArrayList<>(balls);
+    public LinkedList<Ball> getBallList() {
+        return new LinkedList<>(ballList);
     }
 
     /**
      * Compares this object to argument
      *
-     * @param o Object to compare
-     * @return True if objects are same, otherwise false
+     * @param obj Object to compare
+     * @return True if objects are the same, false otherwise
      */
     @Override
-    public boolean equals(Object o) {
-        if (this == o) {
+    public boolean equals(Object obj) {
+
+        if (this == obj) {
             return true;
         }
-        if ((o == null) || (getClass() != o.getClass())) {
+
+        if ((obj == null) || (this.getClass() != obj.getClass())) {
             return false;
         }
 
-        return Objects.equals(balls, ((Basket) o).balls);
+        return Objects.equals(this.ballList, ((Basket) obj).ballList);
     }
 
     /**
@@ -94,7 +63,7 @@ public final class Basket {
      */
     @Override
     public int hashCode() {
-        return Objects.hash(balls);
+        return Objects.hash(ballList);
     }
 
     /**
@@ -104,14 +73,14 @@ public final class Basket {
      */
     @Override
     public String toString() {
-        return getClass().getName() + "@balls: " + balls.toString();
+        return getClass().getName() + "@ballList: " + ballList.toString();
     }
 
     /**
      * Constructor for Basket
      */
     public Basket() {
-        balls = new LinkedList<>();
+        ballList = new LinkedList<>();
     }
 }
 
