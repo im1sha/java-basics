@@ -1,8 +1,6 @@
 package by.bsuir.ovchelupov.task03.runner;
 
-
 import by.bsuir.ovchelupov.utils.Scanner;
-
 import static by.bsuir.ovchelupov.task03.task.TableOfTangents.getTangentList;
 import static by.bsuir.ovchelupov.task03.task.TableRepresentation.getTableRepresentation;
 
@@ -38,7 +36,7 @@ public class Runner {
                 System.out.println(s);
             }
         } catch (IllegalArgumentException e) {
-            System.out.print("Invalid argument has passed");
+            System.out.print("Invalid argument has passed: " + e.getMessage());
         }
     }
 }
