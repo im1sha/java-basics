@@ -1,5 +1,6 @@
 package by.bsuir.ovchelupov.task04;
 
+import by.bsuir.ovchelupov.task04.task.PrimeNumbers;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

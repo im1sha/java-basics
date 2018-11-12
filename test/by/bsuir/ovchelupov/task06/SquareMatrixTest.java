@@ -1,5 +1,6 @@
 package by.bsuir.ovchelupov.task06;
 
+import by.bsuir.ovchelupov.task06.task.SquareMatrix;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

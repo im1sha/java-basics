@@ -1,5 +1,6 @@
 package by.bsuir.ovchelupov.task05;
 
+import by.bsuir.ovchelupov.task05.task.IncreasingSequence;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -21,7 +22,7 @@ class IncreasingSequenceTest {
         Assertions.assertEquals(3,
                 IncreasingSequence.FindNumberOfItemsToRemove(new int[]{2, 3, 1, 4, 5, 7, 0, 3, 9, 11,}));
         Assertions.assertEquals(6,
-                IncreasingSequence.FindNumberOfItemsToRemove(new int[]{2, 3, 1, 4, 5, 7, 0, 3, 9, 11,1,0,-10}));
+                IncreasingSequence.FindNumberOfItemsToRemove(new int[]{2, 3, 1, 4, 5, 7, 0, 3, 9, 11, 1, 0, -10}));
 
         Assertions.assertThrows(IllegalArgumentException.class,
                 () -> IncreasingSequence.FindNumberOfItemsToRemove(null));

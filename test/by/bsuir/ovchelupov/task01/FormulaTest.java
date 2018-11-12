@@ -1,5 +1,6 @@
 package by.bsuir.ovchelupov.task01;
 
+import by.bsuir.ovchelupov.task01.task.Formula;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

@@ -1,5 +1,6 @@
 package by.bsuir.ovchelupov.task12;
 
+import by.bsuir.ovchelupov.task12.task.Book;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

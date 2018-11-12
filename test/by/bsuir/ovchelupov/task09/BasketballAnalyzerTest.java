@@ -1,5 +1,8 @@
 package by.bsuir.ovchelupov.task09;
 
+import by.bsuir.ovchelupov.task09.task.Ball;
+import by.bsuir.ovchelupov.task09.task.Basket;
+import by.bsuir.ovchelupov.task09.task.BasketballAnalyzer;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

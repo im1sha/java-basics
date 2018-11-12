@@ -1,16 +1,18 @@
 package by.bsuir.ovchelupov.task15;
 
 
-import by.bsuir.ovchelupov.task12.Book;
+import by.bsuir.ovchelupov.task12.task.Book;
+import by.bsuir.ovchelupov.task15.task.BookAuthorTitlePriceComparator;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 
 /**
  * Tests for BookAuthorTitlePriceComparator class
  */
 class BookAuthorTitlePriceComparatorTest {
+
     /**
      * Test book ISBN
      */
@@ -29,21 +31,23 @@ class BookAuthorTitlePriceComparatorTest {
     }
 
     /**
-     * Tests for compare() method
+     * Tests compare() method
      */
     @Test
     void compare() {
         BookAuthorTitlePriceComparator comparator = new BookAuthorTitlePriceComparator();
-        Book book111 = createTestBook("first", "first", 1),
-                book112 = createTestBook("first", "first", 2),
-                book121 = createTestBook("first", "second", 1),
-                book122 = createTestBook("first", "second", 2),
-                book211 = createTestBook("second", "first", 1),
-                book212 = createTestBook("second", "first", 2),
-                book221 = createTestBook("second", "second", 1),
-                book222 = createTestBook("second", "second", 2);
-        ArrayList<Book> manuallySortedList = new ArrayList<>(),
-                comparatorSortedList = new ArrayList<>();
+
+        Book book111 = createTestBook("first", "first", 1);
+        Book book112 = createTestBook("first", "first", 2);
+        Book book121 = createTestBook("first", "second", 1);
+        Book book122 = createTestBook("first", "second", 2);
+        Book book211 = createTestBook("second", "first", 1);
+        Book book212 = createTestBook("second", "first", 2);
+        Book book221 = createTestBook("second", "second", 1);
+        Book book222 = createTestBook("second", "second", 2);
+
+        LinkedList<Book> manuallySortedList = new LinkedList<>();
+        LinkedList<Book> comparatorSortedList = new LinkedList<>();
 
         Assertions.assertEquals(0, comparator.compare(book111, book111));
 
@@ -67,6 +71,7 @@ class BookAuthorTitlePriceComparatorTest {
         manuallySortedList.add(book122);
         manuallySortedList.add(book221);
         manuallySortedList.add(book222);
+
         comparatorSortedList.add(book111);
         comparatorSortedList.add(book112);
         comparatorSortedList.add(book121);
@@ -75,7 +80,9 @@ class BookAuthorTitlePriceComparatorTest {
         comparatorSortedList.add(book212);
         comparatorSortedList.add(book221);
         comparatorSortedList.add(book222);
+
         comparatorSortedList.sort(comparator);
+
         Assertions.assertEquals(manuallySortedList, comparatorSortedList);
     }
 }

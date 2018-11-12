@@ -2,9 +2,6 @@ package by.bsuir.ovchelupov.utils;
 
 /**
  * The Scanner class provides input handling
- *
- * @author Mikhail Ovchelupov
- * @version 1.00 22 Sep 2018
  */
 public class Scanner {
 
@@ -61,6 +58,19 @@ public class Scanner {
             scanner.next();
         }
         return scanner.nextInt();
+    }
+
+    /**
+     * Gets int value from console
+     *
+     * @return First int value
+     */
+    public int getPositiveInt() {
+        int value;
+        do {
+            value = getInt();
+        } while (value <= 0);
+        return value;
     }
 
     /**

@@ -1,16 +1,18 @@
 package by.bsuir.ovchelupov.task15;
 
 
-import by.bsuir.ovchelupov.task12.Book;
+import by.bsuir.ovchelupov.task12.task.Book;
+import by.bsuir.ovchelupov.task15.task.BookAuthorComparator;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 
 /**
- * Tests for BookAuthorComparator class
+ * Tests BookAuthorComparator class
  */
 class BookAuthorComparatorTest {
+
     /**
      * Test book title
      */
@@ -37,16 +39,19 @@ class BookAuthorComparatorTest {
     }
 
     /**
-     * Tests for compare() method
+     * Tests compare() method
      */
     @Test
     void compare() {
+
         BookAuthorComparator comparator = new BookAuthorComparator();
-        Book book1 = createTestBook("first"),
-                book2 = createTestBook("second"),
-                book3 = createTestBook("third");
-        ArrayList<Book> manuallySortedList = new ArrayList<>(),
-                comparatorSortedList = new ArrayList<>();
+
+        Book book1 = createTestBook("first");
+        Book book2 = createTestBook("second");
+        Book book3 = createTestBook("third");
+
+        LinkedList<Book> manuallySortedList = new LinkedList<>();
+        LinkedList<Book> comparatorSortedList = new LinkedList<>();
 
         Assertions.assertEquals(0, comparator.compare(book1, book1));
         Assertions.assertTrue(comparator.compare(book1, book2) < 0);
@@ -55,10 +60,13 @@ class BookAuthorComparatorTest {
         manuallySortedList.add(book1);
         manuallySortedList.add(book2);
         manuallySortedList.add(book3);
+
         comparatorSortedList.add(book3);
         comparatorSortedList.add(book2);
         comparatorSortedList.add(book1);
+
         comparatorSortedList.sort(comparator);
+
         Assertions.assertEquals(manuallySortedList, comparatorSortedList);
     }
 }

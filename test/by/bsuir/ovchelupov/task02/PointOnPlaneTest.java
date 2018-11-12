@@ -1,5 +1,6 @@
 package by.bsuir.ovchelupov.task02;
 
+import by.bsuir.ovchelupov.task02.task.PointOnPlane;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

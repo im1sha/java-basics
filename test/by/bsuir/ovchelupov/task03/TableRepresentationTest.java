@@ -1,5 +1,7 @@
 package by.bsuir.ovchelupov.task03;
 
+import by.bsuir.ovchelupov.task03.task.TableOfTangents;
+import by.bsuir.ovchelupov.task03.task.TableRepresentation;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
