@@ -1,7 +1,6 @@
 package by.bsuir.ovchelupov.task15;
 
 import by.bsuir.ovchelupov.task12.Book;
-
 import java.util.Comparator;
 import java.util.Objects;
 
@@ -9,6 +8,7 @@ import java.util.Objects;
  * Comparator that compares two books by author, then by title, then by price
  */
 public class BookAuthorTitlePriceComparator implements Comparator<Book> {
+
     /**
      * Full comparator that contains three others
      */
@@ -49,7 +49,7 @@ public class BookAuthorTitlePriceComparator implements Comparator<Book> {
      */
     @Override
     public boolean equals(Object obj) {
-        return (obj != null) && (getClass() == obj.getClass());
+        return (obj != null) && (this.getClass() == obj.getClass());
     }
 
     /**
@@ -66,6 +66,8 @@ public class BookAuthorTitlePriceComparator implements Comparator<Book> {
      * Constructor of comparator
      */
     public BookAuthorTitlePriceComparator() {
-        fullComparator = new BookAuthorTitleComparator().thenComparing(new BookPriceComparator());
+
+        fullComparator = new BookAuthorTitleComparator().
+                thenComparing(new BookPriceComparator());
     }
 }

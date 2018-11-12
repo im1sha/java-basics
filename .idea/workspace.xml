@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9629cc8-04f8-4f1f-a0ee-a9220a1a380e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task12/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task12/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task12/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task12/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/by/bsuir/ovchelupov/task12/BookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/by/bsuir/ovchelupov/task12/BookTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-basics.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task13/ProgrammerBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task13/ProgrammerBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task13/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task13/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookAuthorComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookAuthorComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookAuthorTitleComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookAuthorTitleComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookAuthorTitlePriceComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookAuthorTitlePriceComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookPriceComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookPriceComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookTitleAuthorComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookTitleAuthorComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookTitleComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookTitleComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/Runner.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -170,7 +173,7 @@
     <session id="-593381327">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
@@ -178,9 +181,9 @@
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -188,7 +191,7 @@
           <entry key="bat" value="2" />
           <entry key="gitignore" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="95" />
+          <entry key="java" value="105" />
           <entry key="md" value="1" />
           <entry key="xml" value="1" />
         </counts>
@@ -196,7 +199,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="95" />
+          <entry key="JAVA" value="105" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="1" />
         </counts>
@@ -204,12 +207,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="7172" />
+          <entry key="java" value="7362" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7172" />
+          <entry key="JAVA" value="7362" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
@@ -218,41 +221,111 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task12/Book.java">
+        <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="254" column="29" lean-forward="true" selection-start-line="254" selection-start-column="29" selection-end-line="254" selection-end-column="29" />
+            <state relative-caret-position="147">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#equals#0;class#Book#0" />
-                <element signature="method#hashCode#0;class#Book#0" />
-                <element signature="method#toString#0;class#Book#0" />
-                <element signature="method#clone#0;class#Book#0" />
-                <element signature="method#setEdition#0;class#Book#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task12/Runner.java">
+        <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookAuthorComparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="69" column="69" lean-forward="true" selection-start-line="69" selection-start-column="69" selection-end-line="69" selection-end-column="69" />
+            <state relative-caret-position="294">
+              <caret line="40" column="6" lean-forward="true" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
               <folding>
-                <element signature="method#inputAndCreateBook#0;class#Runner#0" />
+                <element signature="e#928#929#0" expanded="true" />
+                <element signature="e#971#972#0" expanded="true" />
+                <element signature="e#1216#1217#0" expanded="true" />
+                <element signature="e#1286#1287#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/by/bsuir/ovchelupov/task12/BookTest.java">
+        <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookAuthorTitleComparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="42" column="7" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+            <state relative-caret-position="189">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1073#1074#0" expanded="true" />
+                <element signature="e#1116#1117#0" expanded="true" />
+                <element signature="e#1361#1362#0" expanded="true" />
+                <element signature="e#1431#1432#0" expanded="true" />
+                <element signature="e#1577#1578#0" expanded="true" />
+                <element signature="e#1628#1629#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookAuthorTitlePriceComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1095#1096#0" expanded="true" />
+                <element signature="e#1138#1139#0" expanded="true" />
+                <element signature="e#1383#1384#0" expanded="true" />
+                <element signature="e#1453#1454#0" expanded="true" />
+                <element signature="e#1599#1600#0" expanded="true" />
+                <element signature="e#1650#1651#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookPriceComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding>
+                <element signature="e#930#931#0" expanded="true" />
+                <element signature="e#973#974#0" expanded="true" />
+                <element signature="e#1218#1219#0" expanded="true" />
+                <element signature="e#1288#1289#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookTitleAuthorComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+              <folding>
+                <element signature="e#1073#1074#0" expanded="true" />
+                <element signature="e#1116#1117#0" expanded="true" />
+                <element signature="e#1361#1362#0" expanded="true" />
+                <element signature="e#1431#1432#0" expanded="true" />
+                <element signature="e#1577#1578#0" expanded="true" />
+                <element signature="e#1628#1629#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookTitleComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="34" column="33" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#923#924#0" expanded="true" />
+                <element signature="e#966#967#0" expanded="true" />
+                <element signature="e#1211#1212#0" expanded="true" />
+                <element signature="e#1281#1282#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -276,6 +349,7 @@
       <find>getBallList</find>
       <find>isIsbnCorrect</find>
       <find>clo</find>
+      <find>tostr</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -284,15 +358,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task13/ProgrammerBook.java" />
-        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task13/Runner.java" />
-        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task15/Runner.java" />
-        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task15/BookAuthorComparator.java" />
-        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task15/BookAuthorTitlePriceComparator.java" />
-        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task15/BookPriceComparator.java" />
-        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task15/BookTitleAuthorComparator.java" />
-        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task15/BookTitleComparator.java" />
-        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/lab1/task15/BookAuthorTitleComparator.java" />
         <option value="$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task15/BookAuthorComparatorTest.java" />
         <option value="$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task15/BookAuthorTitleComparatorTest.java" />
         <option value="$PROJECT_DIR$/test/by/bsuir/ovchelupov/lab1/task15/BookAuthorTitlePriceComparatorTest.java" />
@@ -335,6 +400,15 @@
         <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task12/Book.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task12/Runner.java" />
         <option value="$PROJECT_DIR$/test/by/bsuir/ovchelupov/task12/BookTest.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task13/ProgrammerBook.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task13/Runner.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookTitleComparator.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookAuthorComparator.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookPriceComparator.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookTitleAuthorComparator.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookAuthorTitleComparator.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookAuthorTitlePriceComparator.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/Runner.java" />
       </list>
     </option>
   </component>
@@ -346,7 +420,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="1150" />
+    <option name="width" value="1219" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -357,6 +431,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -379,13 +455,6 @@
             <path>
               <item name="java-basics" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ovchelupov" type="462c0819:PsiDirectoryNode" />
-              <item name="task12" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-basics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-basics" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -393,27 +462,18 @@
               <item name="java-basics" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="ovchelupov" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-basics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="ovchelupov" type="462c0819:PsiDirectoryNode" />
-              <item name="task12" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542014512938" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542024996280" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -446,20 +506,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in wt">
-    <configuration name="Runner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="by.bsuir.ovchelupov.task08.Runner" />
-      <module name="java-basics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="by.bsuir.ovchelupov.task08.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Runner">
     <configuration name="Runner (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="by.bsuir.ovchelupov.task12.Runner" />
       <module name="java-basics" />
@@ -473,12 +520,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="by.bsuir.ovchelupov.task06.Runner" />
+    <configuration name="Runner (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.bsuir.ovchelupov.task13.Runner" />
       <module name="java-basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.bsuir.ovchelupov.task06.*" />
+          <option name="PATTERN" value="by.bsuir.ovchelupov.task13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.bsuir.ovchelupov.task15.Runner" />
+      <module name="java-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.bsuir.ovchelupov.task15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -544,67 +604,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="java-basics" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="java-basics" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Runner" />
-      <item itemvalue="Application.Runner (1)" />
       <item itemvalue="JUnit.BasketballAnalyzerTest" />
       <item itemvalue="JUnit.All in wt" />
       <item itemvalue="Application.Runner (2)" />
+      <item itemvalue="Application.Runner (3)" />
+      <item itemvalue="Application.Runner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.Runner (3)" />
         <item itemvalue="JUnit.All in wt" />
         <item itemvalue="Application.Runner (2)" />
         <item itemvalue="JUnit.BasketballAnalyzerTest" />
-        <item itemvalue="Application.Runner (1)" />
-        <item itemvalue="Application.Runner (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -664,7 +677,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="1" />
@@ -674,7 +686,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.2635575" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32212582" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4815618" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.25813448" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -690,7 +702,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="7" visible="true" weight="0.10021322" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="7" visible="true" weight="0.12473348" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32995737" />
     </layout>
     <layout-to-restore>
@@ -782,48 +794,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/by/bsuir/ovchelupov/task15/BookPriceComparatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookTitleAuthorComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/by/bsuir/ovchelupov/task15/BookTitleAuthorComparatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookTitleComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/by/bsuir/ovchelupov/task15/BookTitleComparatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="47" column="63" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/wt/by/bsuir/ovchelupov/lab1/task2/PointOnPlane.class" />
     <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -837,13 +807,6 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3672" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookAuthorTitleComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="57" column="38" lean-forward="true" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task01/Runner.java">
@@ -1089,37 +1052,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/by/bsuir/ovchelupov/task12/BookTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="42" column="7" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task12/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="69" column="69" lean-forward="true" selection-start-line="69" selection-start-column="69" selection-end-line="69" selection-end-column="69" />
+        <state relative-caret-position="1008">
+          <caret line="69" column="69" selection-start-line="69" selection-start-column="69" selection-end-line="69" selection-end-column="69" />
           <folding>
             <element signature="method#inputAndCreateBook#0;class#Runner#0" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/by/bsuir/ovchelupov/task12/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task12/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="254" column="29" lean-forward="true" selection-start-line="254" selection-start-column="29" selection-end-line="254" selection-end-column="29" />
+        <state relative-caret-position="364">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#equals#0;class#Book#0" />
             <element signature="method#hashCode#0;class#Book#0" />
-            <element signature="method#toString#0;class#Book#0" />
             <element signature="method#clone#0;class#Book#0" />
             <element signature="method#setEdition#0;class#Book#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task13/ProgrammerBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-94">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="e#1359#1360#0" expanded="true" />
+            <element signature="e#1448#1449#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task13/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookPriceComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1218#1219#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookTitleAuthorComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="e#1073#1074#0" expanded="true" />
+            <element signature="e#1116#1117#0" expanded="true" />
+            <element signature="e#1361#1362#0" expanded="true" />
+            <element signature="e#1431#1432#0" expanded="true" />
+            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookAuthorTitleComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
+            <element signature="e#1116#1117#0" expanded="true" />
+            <element signature="e#1361#1362#0" expanded="true" />
+            <element signature="e#1431#1432#0" expanded="true" />
+            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookAuthorComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="40" column="6" lean-forward="true" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+          <folding>
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+            <element signature="e#1216#1217#0" expanded="true" />
+            <element signature="e#1286#1287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookAuthorTitlePriceComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
+            <element signature="e#1383#1384#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
+            <element signature="e#1599#1600#0" expanded="true" />
+            <element signature="e#1650#1651#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/BookTitleComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#1211#1212#0" expanded="true" />
+            <element signature="e#1281#1282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/ovchelupov/task15/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

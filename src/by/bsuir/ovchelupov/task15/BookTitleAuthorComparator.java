@@ -9,6 +9,7 @@ import java.util.Objects;
  * Comparator that compares two books by title, then by author
  */
 public class BookTitleAuthorComparator implements Comparator<Book> {
+
     /**
      * Full comparator that contains two others
      */
@@ -49,7 +50,7 @@ public class BookTitleAuthorComparator implements Comparator<Book> {
      */
     @Override
     public boolean equals(Object obj) {
-        return (obj != null) && (getClass() == obj.getClass());
+        return (obj != null) && (this.getClass() == obj.getClass());
     }
 
     /**

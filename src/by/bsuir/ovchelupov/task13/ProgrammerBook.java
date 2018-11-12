@@ -1,13 +1,13 @@
 package by.bsuir.ovchelupov.task13;
 
 import by.bsuir.ovchelupov.task12.Book;
-
 import java.util.Objects;
 
 /**
  * Class for Programmer Book representation
  */
 public class ProgrammerBook extends Book {
+
     /**
      * Book language
      */
@@ -19,10 +19,10 @@ public class ProgrammerBook extends Book {
     private int level;
 
     /**
-     * Checks if programmer books are same
+     * Checks if the programmer books are the same
      *
      * @param object Object to compare
-     * @return True if objects are same, false otherwise
+     * @return True if objects are the same, false otherwise
      */
     @Override
     public boolean equals(Object object) {
@@ -41,9 +41,9 @@ public class ProgrammerBook extends Book {
     }
 
     /**
-     * Generates hash code of programmer book
+     * Generates hash code of a programmer book
      *
-     * @return Hash code of programmer book
+     * @return Hash code of a programmer book
      */
     @Override
     public int hashCode() {
@@ -51,9 +51,9 @@ public class ProgrammerBook extends Book {
     }
 
     /**
-     * Generates string representation of programmer book
+     * Generates string representation of a programmer book
      *
-     * @return String representation of programmer book
+     * @return String representation of a programmer book
      */
     @Override
     public String toString() {
@@ -71,6 +71,7 @@ public class ProgrammerBook extends Book {
      */
     public ProgrammerBook(String title, String author, int price, String isbn, String language, int level) {
         super(title, author, price, isbn);
+
         if ((language == null) || language.isEmpty()) {
             throw new IllegalArgumentException("Language shouldn't be empty");
         }
