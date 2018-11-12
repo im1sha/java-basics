@@ -29,9 +29,6 @@ public class TableOfTangents {
         if (a > b) {
             throw new IllegalArgumentException("value of b should be greater then value of a");
         }
-        if (b - a < h){
-            throw new IllegalArgumentException("interval [a, b] should be more continuous than step h");
-        }
         if (!Double.isFinite(a) || !Double.isFinite(b)) {
             throw new IllegalArgumentException("bounds should be represented by finite values");
         }
