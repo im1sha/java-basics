@@ -57,6 +57,9 @@ public class Runner {
         for (Ball ball : balls) {
             System.out.println("\t" + ball.toString());
         }
+
+        System.out.println("press Enter");
+        Scanner.getString();
     }
 
     /**

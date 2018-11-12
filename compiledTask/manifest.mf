@@ -1,0 +1,1 @@
+main-class: by.bsuir.ovchelupov.task09.runner.Runner

@@ -1,8 +1,8 @@
 
-mkdir task9compiled
+mkdir compiledTask
 
-mkdir task9compiled\bin
+mkdir compiledTask\bin
 
-javac -sourcepath .\src -d .\task9compiled\bin .\src\by\bsuir\ovchelupov\task09\Runner.java
+javac -sourcepath .\src -d .\compiledTask\bin .\src\by\bsuir\ovchelupov\task09\runner\Runner.java
 
-java -classpath .\task9compiled\bin by.bsuir.ovchelupov.task09.runner.Runner
+java -classpath .\compiledTask\bin by.bsuir.ovchelupov.task09.runner.Runner
