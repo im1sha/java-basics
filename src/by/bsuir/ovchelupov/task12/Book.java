@@ -1,6 +1,5 @@
 package by.bsuir.ovchelupov.task12;
 
-
 import java.util.Objects;
 import java.util.regex.Pattern;
 
@@ -8,6 +7,7 @@ import java.util.regex.Pattern;
  * Class for Book representation
  */
 public class Book implements Comparable<Book>, Cloneable {
+
     /**
      * Book title
      */
@@ -42,7 +42,7 @@ public class Book implements Comparable<Book>, Cloneable {
      * Checks if books equals
      *
      * @param object Object to compare
-     * @return True if objects are same, otherwise false
+     * @return True if objects are the same, otherwise false
      */
     @Override
     public boolean equals(Object object) {
@@ -51,13 +51,15 @@ public class Book implements Comparable<Book>, Cloneable {
         if (object == this) {
             return true;
         }
-        if ((object == null) || (getClass() != object.getClass())) {
+        if ((object == null) || (this.getClass() != object.getClass())) {
             return false;
         }
 
         book = (Book) object;
-        return Objects.equals(book.title, title) && Objects.equals(book.author, author) && (price == book.price)
-                && Objects.equals(book.isbn, isbn);
+        return Objects.equals(book.author, this.author) &&
+                Objects.equals(book.title, this.title) &&
+                Objects.equals(book.isbn, this.isbn) &&
+                (book.price == this.price);
     }
 
     /**
@@ -67,6 +69,7 @@ public class Book implements Comparable<Book>, Cloneable {
      */
     @Override
     public int hashCode() {
+
         return Objects.hash(title, author, price, edition, isbn);
     }
 
@@ -77,8 +80,8 @@ public class Book implements Comparable<Book>, Cloneable {
      */
     @Override
     public String toString() {
-        return getClass().getName() + "@title: " + title + ", author: " + author + ", price: " + price + ", edition: "
-                + edition + ", ISBN: " + isbn;
+        return getClass().getName() + "@title: " + title + ", author: " + author +
+                ", price: " + price + ", edition: " + edition + ", ISBN: " + isbn;
     }
 
     /**
@@ -88,21 +91,17 @@ public class Book implements Comparable<Book>, Cloneable {
      */
     @Override
     protected Object clone() throws CloneNotSupportedException {
-        Book clone = (Book) super.clone();
 
-        clone.title = new String(title);
-        clone.author = new String(author);
-        clone.price = price;
-        clone.isbn = new String(isbn);
-        return clone;
+        return super.clone();
     }
 
     /**
-     * Sets edition of all books
+     * Sets edition of all the books
      *
      * @param edition Edition to set
      */
     public static void setEdition(int edition) {
+
         if (edition <= 0) {
             throw new IllegalArgumentException("Edition should be positive number");
         }
@@ -162,25 +161,38 @@ public class Book implements Comparable<Book>, Cloneable {
      * @return True if ISBN is correct, otherwise false
      */
     private static boolean isIsbnCorrect(String isbn) {
+
         String[] splittedIsbn = isbn.split(Pattern.quote("-"));
-        byte indent = 0;
+
+        final int PARTS_IN_OLD_ISBN = 4;
+        final int PARTS_IN_NEW_ISBN = 5;
+        final int REQUIRED_LENGTH = 13;
+
+        int indent = 0; // 1 if prefix 978 or 979 used
         int isbnLength = 0;
 
-        if ((splittedIsbn.length != 5) && (splittedIsbn.length != 4)) {
+        if ((splittedIsbn.length != PARTS_IN_NEW_ISBN) &&
+                (splittedIsbn.length != PARTS_IN_OLD_ISBN)) {
             return false;
         }
-        if (splittedIsbn.length == 5) {
+
+        // first part of new Isbn should be 978 or 979
+        if (splittedIsbn.length == PARTS_IN_NEW_ISBN) {
             if (!splittedIsbn[0].matches("^97[89]$")) {
                 return false;
             }
             indent = 1;
         }
 
+        if (splittedIsbn.length == PARTS_IN_OLD_ISBN) {
+            isbnLength += 3;
+        }
+
         for (String s : splittedIsbn) {
             isbnLength += s.length();
         }
 
-        return (isbnLength == 13)
+        return (isbnLength == REQUIRED_LENGTH)
                 && splittedIsbn[indent].matches("^\\d{1,5}$")
                 && splittedIsbn[1 + indent].matches("^\\d{2,7}$")
                 && splittedIsbn[2 + indent].matches("^\\d{1,6}$")
@@ -193,9 +205,12 @@ public class Book implements Comparable<Book>, Cloneable {
      * @param isbn ISBN string
      * @return Splitted ISBN
      */
-    private static int[] splitIsbnToInt(String isbn) {
+    private static int[] splitIsbnToIntArray(String isbn) {
+
         final int DEFAULT_ISBN_FIRST_PART = 978;
+
         int[] result = new int[ISBN_PARTS];
+
         String[] splittedIsbn = isbn.replace("X", "10").split("-");
         int indent = 0;
 
@@ -204,6 +219,7 @@ public class Book implements Comparable<Book>, Cloneable {
             result[0] = DEFAULT_ISBN_FIRST_PART;
             indent = 1;
         }
+
         for (int i = indent; i < ISBN_PARTS; i++) {
             result[i] = Integer.parseInt(splittedIsbn[i - indent]);
         }
@@ -215,20 +231,26 @@ public class Book implements Comparable<Book>, Cloneable {
      * Compares two books by ISBN
      *
      * @param book Book to compare to this book
-     * @return A negative integer, zero, or a positive integer as this book is less than, equal to, or greater than the specified book
+     * @return A negative integer, zero, or a positive integer as this book is less than,
+     * equal to, or greater than the specified book
      */
     @Override
     public int compareTo(Book book) {
-        int[] thisIsbn = splitIsbnToInt(isbn), otherIsbn;
-        int compareResult = 0;
 
         if (book == null) {
-            throw new IllegalArgumentException("Book shouldn't be null");
+            throw new IllegalArgumentException("argument shouldn't be null");
         }
 
-        otherIsbn = splitIsbnToInt(book.isbn);
-        for (int i = 0; (i < ISBN_PARTS) && (compareResult == 0); i++) {
+        int compareResult = 0;
+
+        int[] thisIsbn = splitIsbnToIntArray(this.isbn);
+        int[] otherIsbn = splitIsbnToIntArray(book.isbn);
+
+        for (int i = 0; i < ISBN_PARTS; i++) {
             compareResult = Integer.compare(thisIsbn[i], otherIsbn[i]);
+            if (compareResult != 0) {
+                break;
+            }
         }
         return compareResult;
     }
@@ -239,6 +261,7 @@ public class Book implements Comparable<Book>, Cloneable {
      * @param title  Title of book
      * @param author Author of book
      * @param price  Price of book
+     * @param isbn   Book's isbn
      */
     public Book(String title, String author, int price, String isbn) {
         if (title == null) {
